@@ -1,5 +1,7 @@
 import React from 'react';
 import { Shield } from 'lucide-react';
+import fondoImg from '../../assets/images/fondo.jpg';
+import leonesImg from '../../assets/images/logo-leones.png';
 
 export default function Hero() {
   return (
@@ -7,12 +9,9 @@ export default function Hero() {
       {/* Fondo de Imagen con Degradado Institucional Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="./assets/fondo.jpg"
+          src={fondoImg}
           alt="Instalaciones COBAT 22"
-          className="w-full h-full object-cover object-center opacity-30 mix-blend-overlay scale-105"
-          onError={(e) => {
-            e.target.style.display = 'none';
-          }}
+          className="w-full h-full object-cover object-center opacity-40 mix-blend-overlay scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#ab0033]/95 via-[#8b002a]/85 to-black/70"></div>
       </div>
@@ -44,13 +43,9 @@ export default function Hero() {
               <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-[#bc955c] rounded-2xl blur opacity-70 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
               <div className="relative bg-white/95 backdrop-blur-md rounded-2xl p-5 shadow-2xl text-center border border-amber-200 max-w-xs">
                 <img
-                  src="./assets/logo-leones.png"
+                  src={leonesImg}
                   alt="Mascota Leones COBAT 22"
                   className="w-28 h-28 mx-auto object-contain drop-shadow-md mb-3"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = 'https://via.placeholder.com/120?text=LEONES+COBAT+22';
-                  }}
                 />
                 <h3 className="font-extrabold text-[#ab0033] text-lg tracking-wider">LEONES COBAT 22</h3>
                 <p className="text-[10px] font-bold text-gray-500 mt-0.5 uppercase tracking-widest">Orgullo & Excelencia</p>

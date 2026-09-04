@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Menu, X, Compass, Bell, Calendar, Clock, FileText, ExternalLink } from 'lucide-react';
+import escudoImg from '../../assets/images/escudo-cobat22.png';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -28,13 +29,9 @@ export default function Navbar() {
             <NavLink to="/" className="flex items-center space-x-3 group shrink-0">
               <div className="w-12 h-12 rounded-full bg-white p-1 flex items-center justify-center shadow-md border-2 border-[#bc955c] transform group-hover:scale-105 transition-transform">
                 <img 
-                  src="./assets/escudo-cobat22.png" 
+                  src={escudoImg} 
                   alt="Escudo COBAT 22" 
                   className="w-full h-full object-contain"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = 'https://via.placeholder.com/48?text=C22';
-                  }}
                 />
               </div>
               <div className="flex flex-col">

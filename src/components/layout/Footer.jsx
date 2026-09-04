@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Globe, Shield, Heart } from 'lucide-react';
 import { plantelData } from '../../data/plantelData';
+import escudoImg from '../../assets/images/escudo-cobat22.png';
 
 export default function Footer() {
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 rounded-full bg-white p-1 flex items-center justify-center">
-                <img src="./assets/escudo-cobat22.png" alt="COBAT 22" className="w-full h-full object-contain" />
+                <img src={escudoImg} alt="COBAT 22" className="w-full h-full object-contain" />
               </div>
               <span className="font-bold text-lg text-amber-200">COBAT PLANTEL 22</span>
             </div>

@@ -41,17 +41,14 @@ export default function Hero() {
           <div className="lg:col-span-4 flex justify-center">
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-[#bc955c] rounded-2xl blur opacity-70 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
-              <div className="relative bg-white/95 backdrop-blur-md rounded-2xl p-5 shadow-2xl text-center border border-amber-200 max-w-xs">
+              <div className="relative bg-white/95 backdrop-blur-md rounded-2xl p-6 shadow-2xl text-center border border-amber-200 max-w-xs">
                 <img
                   src={leonesImg}
                   alt="Mascota Leones COBAT 22"
                   className="w-28 h-28 mx-auto object-contain drop-shadow-md mb-3"
                 />
-                <h3 className="font-extrabold text-[#ab0033] text-lg tracking-wider">LEONES COBAT 22</h3>
-                <p className="text-[10px] font-bold text-gray-500 mt-0.5 uppercase tracking-widest">Orgullo & Excelencia</p>
-                <div className="mt-2 pt-2 border-t border-gray-100 text-xs text-gray-600 italic">
-                  "Rugido de Excelencia, Orgullo de Reynosa."
-                </div>
+                <h3 className="font-black text-[#ab0033] text-xl tracking-wider uppercase">Somos Leones</h3>
+                <p className="text-xs font-extrabold text-[#bc955c] mt-1 uppercase tracking-widest">Somos Campeones</p>
               </div>
             </div>
           </div>

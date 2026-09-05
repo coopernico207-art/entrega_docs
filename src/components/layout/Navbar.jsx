@@ -24,9 +24,9 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             
-            {/* Logo y Titular Agrandado */}
-            <NavLink to="/" className="flex items-center space-x-3.5 group shrink-0">
-              <div className="w-16 h-16 rounded-full bg-white p-1 flex items-center justify-center shadow-lg border-2 border-[#bc955c] transform group-hover:scale-105 transition-transform shrink-0">
+            {/* Logo Escudo COBAT 22 (Tamaño Original w-12 h-12) */}
+            <NavLink to="/" className="flex items-center space-x-3 group shrink-0">
+              <div className="w-12 h-12 rounded-full bg-white p-1 flex items-center justify-center shadow-md border-2 border-[#bc955c] transform group-hover:scale-105 transition-transform shrink-0">
                 <img 
                   src={escudoImg} 
                   alt="Escudo COBAT 22" 
@@ -34,10 +34,10 @@ export default function Navbar() {
                 />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl sm:text-2xl font-black tracking-wider text-white uppercase group-hover:text-amber-200 transition-colors">
+                <span className="text-xl font-bold tracking-wider text-white uppercase group-hover:text-amber-200 transition-colors">
                   COBAT 22
                 </span>
-                <span className="text-xs text-amber-200 font-bold tracking-wide">
+                <span className="text-xs text-amber-200 font-medium tracking-wide">
                   Reynosa Tamaulipas ° Coordinación Zona 2
                 </span>
               </div>

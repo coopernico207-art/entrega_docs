@@ -26,7 +26,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="relative group bg-[#8b002a] text-white overflow-hidden shadow-xl min-h-[380px] sm:min-h-[420px]">
+    <div className="relative group bg-[#8b002a] text-white shadow-xl overflow-hidden">
       
       {/* Carrusel Slides */}
       {heroSlidesData.map((slide, idx) => {
@@ -38,30 +38,22 @@ export default function Hero() {
               isActive ? 'opacity-100 relative z-10 pointer-events-auto' : 'opacity-0 absolute inset-0 z-0 pointer-events-none'
             }`}
           >
-            {/* Fondo de Imagen según tipo de Slide */}
-            <div className="absolute inset-0 z-0">
-              {slide.tipo === 'banner' ? (
-                <>
+            {/* SLIDE TIPO BANNER PRINCIPAL */}
+            {slide.tipo === 'banner' && (
+              <div className="relative z-10 min-h-[360px] sm:min-h-[420px] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12 sm:pt-12 sm:pb-16 flex items-center">
+                
+                {/* Fondo de Imagen con Degradado Overlay */}
+                <div className="absolute inset-0 z-0">
                   <img
                     src={fondoImg}
                     alt={slide.titulo}
                     className="w-full h-full object-cover object-center opacity-45 mix-blend-overlay scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-[#ab0033]/95 via-[#8b002a]/85 to-black/80"></div>
-                </>
-              ) : (
-                <img
-                  src={slide.imagen}
-                  alt={slide.titulo || 'Fotografía COBAT 22'}
-                  className="w-full h-full object-cover object-center opacity-100"
-                />
-              )}
-            </div>
+                </div>
 
-            {/* Contenido para el Slide Principal (Banner) */}
-            {slide.tipo === 'banner' && (
-              <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center w-full">
+                {/* Grid Contenido */}
+                <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center w-full">
                   
                   {/* Texto y Titular Principal */}
                   <div className="lg:col-span-8 space-y-3 sm:space-y-5 text-center lg:text-left">
@@ -103,6 +95,18 @@ export default function Hero() {
                 </div>
               </div>
             )}
+
+            {/* SLIDE TIPO FOTOGRAFÍA (FACHADA / PATIO) */}
+            {slide.tipo === 'foto' && (
+              <div className="relative z-10 h-[260px] sm:h-[380px] lg:h-[440px] w-full">
+                <img
+                  src={slide.imagen}
+                  alt={slide.titulo || 'Fotografía COBAT 22'}
+                  className="w-full h-full object-cover object-center opacity-100"
+                />
+              </div>
+            )}
+
           </div>
         );
       })}

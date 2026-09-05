@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "deploy": "vite build && pwsh -Command \"Copy-Item -Path dist/index.html -Destination index.html -Force; Copy-Item -Path dist/index.html -Destination 404.html -Force; Copy-Item -Path dist/* -Destination . -Recurse -Force\"",
+    "dev": "pwsh -Command \"Copy-Item -Path src/template.html -Destination index.html -Force\"; vite",
+    "build": "pwsh -Command \"Copy-Item -Path src/template.html -Destination index.html -Force\"; vite build",
+    "deploy": "pwsh -Command \"Copy-Item -Path src/template.html -Destination index.html -Force; Remove-Item -Path dist, assets -Recurse -Force -ErrorAction SilentlyContinue\"; vite build && pwsh -Command \"Copy-Item -Path dist/index.html -Destination index.html -Force; Copy-Item -Path dist/index.html -Destination 404.html -Force; Copy-Item -Path dist/* -Destination . -Recurse -Force\"",
     "preview": "vite preview"
   },
   "dependencies": {

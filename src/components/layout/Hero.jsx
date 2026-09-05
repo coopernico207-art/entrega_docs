@@ -26,7 +26,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="relative group bg-[#8b002a] text-white shadow-xl overflow-hidden">
+    <div className="relative group bg-[#8b002a] text-white shadow-xl overflow-hidden min-h-[360px] sm:min-h-[420px]">
       
       {/* Carrusel Slides */}
       {heroSlidesData.map((slide, idx) => {
@@ -38,22 +38,30 @@ export default function Hero() {
               isActive ? 'opacity-100 relative z-10 pointer-events-auto' : 'opacity-0 absolute inset-0 z-0 pointer-events-none'
             }`}
           >
-            {/* SLIDE TIPO BANNER PRINCIPAL */}
-            {slide.tipo === 'banner' && (
-              <div className="relative z-10 min-h-[360px] sm:min-h-[420px] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12 sm:pt-12 sm:pb-16 flex items-center">
-                
-                {/* Fondo de Imagen con Degradado Overlay */}
-                <div className="absolute inset-0 z-0">
+            {/* Fondo de Imagen FULL WIDTH (Edge-to-Edge) sin franjas laterales */}
+            <div className="absolute inset-0 z-0">
+              {slide.tipo === 'banner' ? (
+                <>
                   <img
                     src={fondoImg}
                     alt={slide.titulo}
                     className="w-full h-full object-cover object-center opacity-45 mix-blend-overlay scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-[#ab0033]/95 via-[#8b002a]/85 to-black/80"></div>
-                </div>
+                </>
+              ) : (
+                <img
+                  src={slide.imagen}
+                  alt={slide.titulo || 'Fotografía COBAT 22'}
+                  className="w-full h-full object-cover object-center opacity-100"
+                />
+              )}
+            </div>
 
-                {/* Grid Contenido */}
-                <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center w-full">
+            {/* Contenido para el Slide Principal (Banner) - Centrado dentro de max-w-7xl */}
+            {slide.tipo === 'banner' && (
+              <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12 sm:pt-12 sm:pb-16 min-h-[360px] sm:min-h-[420px] flex items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center w-full">
                   
                   {/* Texto y Titular Principal */}
                   <div className="lg:col-span-8 space-y-3 sm:space-y-5 text-center lg:text-left">
@@ -96,15 +104,9 @@ export default function Hero() {
               </div>
             )}
 
-            {/* SLIDE TIPO FOTOGRAFÍA (FACHADA / PATIO) */}
+            {/* Espaciador para Slide de Fotografía */}
             {slide.tipo === 'foto' && (
-              <div className="relative z-10 h-[260px] sm:h-[380px] lg:h-[440px] w-full">
-                <img
-                  src={slide.imagen}
-                  alt={slide.titulo || 'Fotografía COBAT 22'}
-                  className="w-full h-full object-cover object-center opacity-100"
-                />
-              </div>
+              <div className="relative z-10 h-[260px] sm:h-[380px] lg:h-[440px] w-full pointer-events-none" />
             )}
 
           </div>
@@ -115,7 +117,7 @@ export default function Hero() {
       <button
         onClick={handlePrev}
         aria-label="Slide Anterior"
-        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 bg-black/40 hover:bg-[#ab0033] text-white p-2 rounded-full border border-white/20 backdrop-blur-sm transition-all duration-300 opacity-70 sm:opacity-0 sm:group-hover:opacity-100 shadow-md hover:scale-110"
+        className="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 z-20 bg-black/40 hover:bg-[#ab0033] text-white p-2.5 rounded-full border border-white/20 backdrop-blur-sm transition-all duration-300 opacity-70 sm:opacity-0 sm:group-hover:opacity-100 shadow-md hover:scale-110"
       >
         <ChevronLeft className="w-5 h-5" />
       </button>
@@ -123,7 +125,7 @@ export default function Hero() {
       <button
         onClick={handleNext}
         aria-label="Siguiente Slide"
-        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 bg-black/40 hover:bg-[#ab0033] text-white p-2 rounded-full border border-white/20 backdrop-blur-sm transition-all duration-300 opacity-70 sm:opacity-0 sm:group-hover:opacity-100 shadow-md hover:scale-110"
+        className="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 z-20 bg-black/40 hover:bg-[#ab0033] text-white p-2.5 rounded-full border border-white/20 backdrop-blur-sm transition-all duration-300 opacity-70 sm:opacity-0 sm:group-hover:opacity-100 shadow-md hover:scale-110"
       >
         <ChevronRight className="w-5 h-5" />
       </button>

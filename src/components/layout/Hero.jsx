@@ -33,7 +33,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-sm sm:text-base text-gray-200 font-normal max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Consulta en pestañas independientes la información institucional, avisos, fechas de exámenes, horarios de clase y vida estudiantil de los <strong className="text-amber-200">Leones del COBAT 22</strong>.
+              Consulta en pestañas independientes la información institucional, avisos, fechas de exámenes y convocatorias de los <strong className="text-amber-200">Leones del COBAT 22</strong>.
             </p>
           </div>
 

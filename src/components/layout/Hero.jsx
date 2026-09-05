@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield } from 'lucide-react';
+import { plantelData } from '../../data/plantelData';
 import fondoImg from '../../assets/images/fondo.jpg';
 import leonesImg from '../../assets/images/logo-leones.png';
 
@@ -37,7 +38,7 @@ export default function Hero() {
             </p>
           </div>
 
-          {/* Insignia / Mascota Leones COBAT 22 */}
+          {/* Insignia / Mascota Leones COBAT 22 alimentada desde plantelData.js */}
           <div className="lg:col-span-4 flex justify-center">
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-[#bc955c] rounded-2xl blur opacity-70 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
@@ -47,8 +48,12 @@ export default function Hero() {
                   alt="Mascota Leones COBAT 22"
                   className="w-28 h-28 mx-auto object-contain drop-shadow-md mb-3"
                 />
-                <h3 className="font-black text-[#ab0033] text-xl tracking-wider uppercase">Somos Leones</h3>
-                <p className="text-xs font-extrabold text-[#bc955c] mt-1 uppercase tracking-widest">Somos Campeones</p>
+                <h3 className="font-black text-[#ab0033] text-xl tracking-wider uppercase">
+                  {plantelData.mascota.nombre}
+                </h3>
+                <p className="text-xs font-extrabold text-[#bc955c] mt-1 uppercase tracking-widest">
+                  {plantelData.mascota.subtitulo}
+                </p>
               </div>
             </div>
           </div>

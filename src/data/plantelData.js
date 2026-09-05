@@ -9,6 +9,10 @@ export const plantelData = {
     terreno: "12,118 m²",
     fechaFundacion: "22 de junio de 2010"
   },
+  mascota: {
+    nombre: "SOMOS LEONES",
+    subtitulo: "SOMOS CAMPEONES"
+  },
   horariosAtencion: {
     matutino: "07:00 AM - 01:30 PM",
     vespertino: "01:30 PM - 07:50 PM"

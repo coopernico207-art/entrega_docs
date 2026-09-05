@@ -38,7 +38,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Shield className="w-4 h-4 text-amber-400 shrink-0" />
-                <span>Coordinación Regional: {plantelData.datosGenerales.zona}</span>
+                <span>{plantelData.datosGenerales.zona}</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Globe className="w-4 h-4 text-amber-400 shrink-0" />

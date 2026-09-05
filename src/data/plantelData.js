@@ -1,11 +1,11 @@
 export const plantelData = {
   datosGenerales: {
     nombre: "Plantel 22 Reynosa",
-    cct: "28ECB0022R",
-    zona: "Zona No. 2",
+    cct: "28ECB0022I",
+    zona: "Coordinación Zona 2",
     directora: "Lic. María Alejandra Soldevilla Granados",
-    modalidad: "Organismo Publico Descentralizado",
-    ubicacion: "Fracc. Reynosa / La Joya, Reynosa, Tamaulipas.",
+    modalidad: "Bachillerato General Escolarizado",
+    ubicacion: "Diamante y Latón s/n Col. Villas la Esmeralda, Reynosa, Mexico, 88795",
     terreno: "12,118 m²",
     fechaFundacion: "22 de junio de 2010"
   },

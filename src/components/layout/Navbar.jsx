@@ -39,7 +39,7 @@ export default function Navbar() {
                   COBAT 22
                 </span>
                 <span className="text-xs text-amber-200 font-medium tracking-wide">
-                  Reynosa Tamaulipas ° Zona 2
+                  Reynosa Tamaulipas ° Coordinación Zona 2
                 </span>
               </div>
             </NavLink>

@@ -93,7 +93,7 @@ export default function VisionPlantel() {
             </h4>
             <div className="space-y-2.5 text-gray-700">
               <p><strong>Clave de Centro de Trabajo (CCT):</strong> {plantelData.datosGenerales.cct}</p>
-              <p><strong>Coordinación Regional:</strong> {plantelData.datosGenerales.zona}</p>
+              <p><strong>Zona Escolar:</strong> {plantelData.datosGenerales.zona}</p>
               <p><strong>Modalidad:</strong> <span className="bg-amber-100 text-amber-900 px-2 py-0.5 rounded font-bold">{plantelData.datosGenerales.modalidad}</span></p>
               <p><strong>Ubicación:</strong> {plantelData.datosGenerales.ubicacion}</p>
               <p><strong>Director(a) del Plantel:</strong> {plantelData.datosGenerales.directora}</p>

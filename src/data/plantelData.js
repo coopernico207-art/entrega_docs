@@ -23,9 +23,9 @@ export const plantelData = {
   ],
   capacitaciones: [
     {
-      id: "informatica",
-      nombre: "Informática",
-      descripcion: "Formación en herramientas digitales, software de oficina, mantenimiento de sistemas, arquitectura de computadoras y desarrollo básico."
+      id: "tics",
+      nombre: "Tecnologías de la Información y la Comunicación",
+      descripcion: "Formación integral en sistemas informáticos, redes, software de productividad, herramientas digitales avanzadas y desarrollo tecnológico."
     },
     {
       id: "contabilidad",
@@ -33,14 +33,14 @@ export const plantelData = {
       descripcion: "Gestión de registros contables, cálculo de nóminas, procesos financieros, impuestos básicos y control administrativo de empresas."
     },
     {
-      id: "salud",
-      nombre: "Higiene y Salud Comunitaria",
-      descripcion: "Principios de salud pública, primeros auxilios, medicina preventiva, anatomía y cuidado de la salud en la comunidad."
+      id: "robotica",
+      nombre: "Robótica",
+      descripcion: "Principios de automatización, mecatrónica elemental, programación de microcontroladores, electrónica y diseño de sistemas mecatrónicos."
     }
   ],
   infraestructura: [
     "16 Aulas de material totalmente equipadas",
-    "2 Laboratorios de Informática con acceso a internet",
+    "Laboratorios de Cómputo y Robótica con acceso a internet",
     "Techumbre y plaza cívica principal",
     "4 Módulos de servicios sanitarios",
     "Pórtico de acceso y oficinas administrativas"

@@ -13,7 +13,7 @@ export const horariosData = [
     grupo: "401",
     semestre: 4,
     turno: "Matutino",
-    capacitacion: "Informática",
+    capacitacion: "Tecnologías de la Información y la Comunicación",
     tutor: "Ing. Carlos Mendoza",
     pdfUrl: "./docs/horario_401_M.pdf"
   },
@@ -31,8 +31,8 @@ export const horariosData = [
     grupo: "403",
     semestre: 4,
     turno: "Vespertino",
-    capacitacion: "Higiene y Salud Comunitaria",
-    tutor: "Dra. Sofia Treviño",
+    capacitacion: "Robótica",
+    tutor: "Ing. Sofia Treviño",
     pdfUrl: "./docs/horario_403_V.pdf"
   },
   {
@@ -40,7 +40,7 @@ export const horariosData = [
     grupo: "601",
     semestre: 6,
     turno: "Matutino",
-    capacitacion: "Informática",
+    capacitacion: "Tecnologías de la Información y la Comunicación",
     tutor: "Lic. Roberto Gómez",
     pdfUrl: "./docs/horario_601_M.pdf"
   },

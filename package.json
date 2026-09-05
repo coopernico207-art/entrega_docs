@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "vite build && pwsh -Command \"Copy-Item -Path dist/index.html -Destination index.html -Force; Copy-Item -Path dist/index.html -Destination 404.html -Force; Copy-Item -Path dist/* -Destination . -Recurse -Force\"",
     "preview": "vite preview"
   },
   "dependencies": {

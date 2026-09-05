@@ -77,7 +77,6 @@ export default function Footer() {
               <li><Link to="/" className="hover:text-amber-200 transition-colors">Visión</Link></li>
               <li><Link to="/avisos" className="hover:text-amber-200 transition-colors">Avisos</Link></li>
               <li><Link to="/examenes" className="hover:text-amber-200 transition-colors">Exámenes & Recursamiento</Link></li>
-              <li><Link to="/horarios" className="hover:text-amber-200 transition-colors">Horarios</Link></li>
               <li><Link to="/convocatorias" className="hover:text-amber-200 transition-colors">Convocatorias</Link></li>
               <li><Link to="/servicios" className="hover:text-amber-200 transition-colors">Servicios Escolares</Link></li>
             </ul>

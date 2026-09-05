@@ -89,8 +89,8 @@ export default function Footer() {
           <div>
             © 2026 COBAT Plantel 22 Reynosa. Todos los derechos reservados.
           </div>
-          <div className="flex items-center space-x-1">
-            <span>Comunidad Escolar de COBAT 22</span>
+          <div className="flex items-center space-x-1 font-semibold text-amber-200">
+            <span>desarrollado por JE-PRODUCTIONS</span>
             <Heart className="w-3.5 h-3.5 text-amber-400 inline fill-amber-400" />
           </div>
         </div>

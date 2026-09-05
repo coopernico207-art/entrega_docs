@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Globe, Shield, Heart } from 'lucide-react';
+import { MapPin, Phone, Mail, Globe, Shield } from 'lucide-react';
 import { plantelData } from '../../data/plantelData';
 import escudoImg from '../../assets/images/escudo-cobat22.png';
 
@@ -42,7 +42,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Globe className="w-4 h-4 text-amber-400 shrink-0" />
-                <span>Modalidad: {plantelData.datosGenerales.modalidad}</span>
+                <span>{plantelData.datosGenerales.regimen}</span>
               </li>
             </ul>
           </div>
@@ -90,8 +90,7 @@ export default function Footer() {
             © 2026 COBAT Plantel 22 Reynosa. Todos los derechos reservados.
           </div>
           <div className="flex items-center space-x-1 font-semibold text-amber-200">
-            <span>desarrollado por JE-PRODUCTIONS</span>
-            <Heart className="w-3.5 h-3.5 text-amber-400 inline fill-amber-400" />
+            <span>Desarrollado por JE-PRODUCTIONS</span>
           </div>
         </div>
       </div>

@@ -3,3 +3,4 @@ export { avisosData } from './avisosData';
 export { examenesData } from './examenesData';
 export { horariosData } from './horariosData';
 export { convocatoriasData } from './convocatoriasData';
+export { heroSlidesData } from './heroSlidesData';

@@ -4,6 +4,7 @@ export const plantelData = {
     cct: "28ECB0022I",
     zona: "Coordinación Zona 2",
     directora: "Lic. María Alejandra Soldevilla Granados",
+    regimen: "Organismo Público Descentralizado",
     modalidad: "Bachillerato General Escolarizado",
     ubicacion: "Diamante y Latón s/n Col. Villas la Esmeralda, Reynosa, Mexico, 88795",
     terreno: "12,118 m²",
@@ -43,10 +44,10 @@ export const plantelData = {
     }
   ],
   infraestructura: [
-    "16 Aulas de material totalmente equipadas",
-    "Laboratorios de Cómputo y Robótica con acceso a internet",
+    "17 Aulas de clase totalmente equipadas",
+    "2 Laboratorios para Cómputo y Robótica",
     "Techumbre y plaza cívica principal",
     "4 Módulos de servicios sanitarios",
-    "Pórtico de acceso y oficinas administrativas"
+    "Oficinas administrativas"
   ]
 };

@@ -1,16 +1,8 @@
 import React from 'react';
-import { ExternalLink, ShieldCheck, Mail, FileText, UserCheck, HelpCircle } from 'lucide-react';
+import { ExternalLink, Mail, FileText } from 'lucide-react';
 
 export default function EnlacesRapidos() {
   const servicios = [
-    {
-      titulo: 'Consulta de Calificaciones SIA',
-      descripcion: 'Acceso directo a la plataforma de boletas y kardex del alumno.',
-      icono: ShieldCheck,
-      url: 'https://www.cobat.edu.mx/',
-      color: 'from-[#ab0033] to-[#8b002a]',
-      btnText: 'Ingresar al SIA'
-    },
     {
       titulo: 'Directorio de Correos Institucionales',
       descripcion: 'Lista oficial de correos docentes y administrativos 2025-B / 2026.',
@@ -30,7 +22,7 @@ export default function EnlacesRapidos() {
   ];
 
   return (
-    <section id="calificaciones" className="py-14 bg-[#f4f6f8] border-t border-gray-200">
+    <section id="servicios" className="py-14 bg-[#f4f6f8] border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center max-w-2xl mx-auto mb-10">
@@ -42,7 +34,7 @@ export default function EnlacesRapidos() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {servicios.map((s, idx) => {
             const IconComponent = s.icono;
             return (

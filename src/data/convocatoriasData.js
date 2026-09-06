@@ -14,7 +14,7 @@ export const convocatoriasData = [
     modalidad: "Académico",
     fechaLimite: "Mayo 2027",
     estado: "Próxima",
-    bases: "Evaluación académica en asignaturas clave (Matemáticas, Física, Química, Biología, Lenguaje e Historia) para estudiantes de todos los semestres del COBAT.",
+    bases: "Evaluación académica en las áreas fundamentales: Pensamiento Matemático, Lengua y Comunicación, Ciencias Sociales y Humanidades, Ciencias Naturales y Cultura Digital para estudiantes de todos los semestres del COBAT.",
     premio: "Medallas de 1er, 2do y 3er lugar e incentivo académico estatal."
   },
   {

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cobat22.je-productions.com/sitemap.xml

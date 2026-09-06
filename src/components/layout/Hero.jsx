@@ -104,9 +104,9 @@ export default function Hero() {
               </div>
             )}
 
-            {/* Espaciador para Slide de Fotografía */}
+            {/* Espaciador para Slide de Fotografía con la misma altura que el banner */}
             {slide.tipo === 'foto' && (
-              <div className="relative z-10 h-[260px] sm:h-[380px] lg:h-[440px] w-full pointer-events-none" />
+              <div className="relative z-10 min-h-[460px] sm:min-h-[420px] w-full pointer-events-none" />
             )}
 
           </div>

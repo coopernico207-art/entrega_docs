@@ -55,7 +55,7 @@ export default function Convocatorias() {
 
               <div className="pt-4 border-t border-gray-100 space-y-3">
                 <div className="flex justify-between text-xs text-gray-500">
-                  <span>Fecha Límite:</span>
+                  <span>Periodo / Fecha:</span>
                   <strong className="text-[#ab0033]">{item.fechaLimite}</strong>
                 </div>
 

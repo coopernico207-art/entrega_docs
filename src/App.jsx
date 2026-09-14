@@ -8,6 +8,7 @@ import CatalogoExamenes from './components/sections/CatalogoExamenes';
 import CatalogoHorarios from './components/sections/CatalogoHorarios';
 import Convocatorias from './components/sections/Convocatorias';
 import EnlacesRapidos from './components/sections/EnlacesRapidos';
+import SitiosInteresCarousel from './components/sections/SitiosInteresCarousel';
 import Footer from './components/layout/Footer';
 
 export default function App() {
@@ -31,6 +32,9 @@ export default function App() {
             <Route path="/servicios" element={<EnlacesRapidos />} />
           </Routes>
         </main>
+
+        {/* Carrusel de Sitios de Interés & Calendario Escolar */}
+        <SitiosInteresCarousel />
 
         {/* Pie de Página Institucional */}
         <Footer />

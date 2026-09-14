@@ -20,9 +20,6 @@ export default function App() {
         {/* Barra de Navegación por Pestañas */}
         <Navbar />
 
-        {/* Encabezado Hero Presentacional */}
-        <Hero />
-
         {/* Vista Cambiante por Pestaña Seleccionada */}
         <div className="flex-grow">
           <Routes>
@@ -30,6 +27,8 @@ export default function App() {
               path="/"
               element={
                 <>
+                  {/* Encabezado Hero Presentacional (Solo en Inicio) */}
+                  <Hero />
                   <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
                     <VisionPlantel />
                   </main>

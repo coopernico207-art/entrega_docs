@@ -74,7 +74,7 @@ export default function Footer() {
               Pestañas del Catálogo
             </h4>
             <ul className="space-y-1.5 text-xs text-gray-300">
-              <li><Link to="/" className="hover:text-amber-200 transition-colors">Visión</Link></li>
+              <li><Link to="/" className="hover:text-amber-200 transition-colors">Inicio</Link></li>
               <li><Link to="/avisos" className="hover:text-amber-200 transition-colors">Avisos</Link></li>
               <li><Link to="/examenes" className="hover:text-amber-200 transition-colors">Exámenes & Recursamiento</Link></li>
               <li><Link to="/convocatorias" className="hover:text-amber-200 transition-colors">Convocatorias</Link></li>

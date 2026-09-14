@@ -21,20 +21,62 @@ export default function App() {
         {/* Encabezado Hero Presentacional */}
         <Hero />
 
-        {/* Vista Cambiante por Pestaña Selecciónada */}
-        <main className="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Vista Cambiante por Pestaña Seleccionada */}
+        <div className="flex-grow">
           <Routes>
-            <Route path="/" element={<VisionPlantel />} />
-            <Route path="/avisos" element={<AvisosBanner />} />
-            <Route path="/examenes" element={<CatalogoExamenes />} />
-            <Route path="/horarios" element={<CatalogoHorarios />} />
-            <Route path="/convocatorias" element={<Convocatorias />} />
-            <Route path="/servicios" element={<EnlacesRapidos />} />
+            <Route
+              path="/"
+              element={
+                <>
+                  <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                    <VisionPlantel />
+                  </main>
+                  <SitiosInteresCarousel />
+                </>
+              }
+            />
+            <Route
+              path="/avisos"
+              element={
+                <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                  <AvisosBanner />
+                </main>
+              }
+            />
+            <Route
+              path="/examenes"
+              element={
+                <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                  <CatalogoExamenes />
+                </main>
+              }
+            />
+            <Route
+              path="/horarios"
+              element={
+                <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                  <CatalogoHorarios />
+                </main>
+              }
+            />
+            <Route
+              path="/convocatorias"
+              element={
+                <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                  <Convocatorias />
+                </main>
+              }
+            />
+            <Route
+              path="/servicios"
+              element={
+                <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                  <EnlacesRapidos />
+                </main>
+              }
+            />
           </Routes>
-        </main>
-
-        {/* Carrusel de Sitios de Interés & Calendario Escolar */}
-        <SitiosInteresCarousel />
+        </div>
 
         {/* Pie de Página Institucional */}
         <Footer />

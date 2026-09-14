@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X, Compass, Bell, Calendar, FileText, ExternalLink } from 'lucide-react';
+import { Menu, X, Home, Bell, Calendar, FileText, ExternalLink } from 'lucide-react';
 import escudoImg from '../../assets/images/escudo-cobat22.png';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Visión', path: '/', icon: Compass },
+    { name: 'Inicio', path: '/', icon: Home },
     { name: 'Avisos', path: '/avisos', icon: Bell },
     { name: 'Exámenes & Recursamiento', path: '/examenes', icon: Calendar },
     { name: 'Convocatorias', path: '/convocatorias', icon: FileText },

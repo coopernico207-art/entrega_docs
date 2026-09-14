@@ -20,16 +20,6 @@ export const sitiosInteresData = [
     esPdf: false
   },
   {
-    id: 'sic-cobat',
-    titulo: 'Sistema Integral COBAT (SIC)',
-    descripcion: 'Plataforma oficial para la consulta de boletas, kardex y credencial digital.',
-    categoria: 'Sistema Académico',
-    url: 'https://sic.cobat.edu.mx/',
-    btnText: 'Ingresar al SIC',
-    color: 'from-[#bc955c] to-amber-700',
-    esPdf: false
-  },
-  {
     id: 'gob-tamaulipas',
     titulo: 'Gobierno del Estado de Tamaulipas',
     descripcion: 'Portal institucional del Gobierno del Estado de Tamaulipas.',

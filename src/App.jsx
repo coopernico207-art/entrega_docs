@@ -10,10 +10,12 @@ import Convocatorias from './components/sections/Convocatorias';
 import EnlacesRapidos from './components/sections/EnlacesRapidos';
 import SitiosInteresCarousel from './components/sections/SitiosInteresCarousel';
 import Footer from './components/layout/Footer';
+import ScrollToTop from './components/utils/ScrollToTop';
 
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-[#f4f6f8] selection:bg-[#ab0033] selection:text-white">
         {/* Barra de Navegación por Pestañas */}
         <Navbar />

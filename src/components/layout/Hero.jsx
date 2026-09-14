@@ -26,7 +26,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="relative group bg-[#8b002a] text-white shadow-xl overflow-hidden min-h-[360px] sm:min-h-[420px]">
+    <div className="relative group bg-[#8b002a] text-white shadow-xl overflow-hidden h-[calc(100vh-86px)] min-h-[480px]">
       
       {/* Carrusel Slides */}
       {heroSlidesData.map((slide, idx) => {
@@ -34,7 +34,7 @@ export default function Hero() {
         return (
           <div
             key={slide.id}
-            className={`transition-opacity duration-700 ease-in-out ${
+            className={`h-full transition-opacity duration-700 ease-in-out ${
               isActive ? 'opacity-100 relative z-10 pointer-events-auto' : 'opacity-0 absolute inset-0 z-0 pointer-events-none'
             }`}
           >
@@ -60,7 +60,7 @@ export default function Hero() {
 
             {/* Contenido para el Slide Principal (Banner) - Centrado dentro de max-w-7xl */}
             {slide.tipo === 'banner' && (
-              <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12 sm:pt-12 sm:pb-16 min-h-[360px] sm:min-h-[420px] flex items-center">
+              <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center py-8">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center w-full">
                   
                   {/* Texto y Titular Principal */}
@@ -104,9 +104,9 @@ export default function Hero() {
               </div>
             )}
 
-            {/* Espaciador para Slide de Fotografía con la misma altura que el banner */}
+            {/* Espaciador para Slide de Fotografía con la misma altura */}
             {slide.tipo === 'foto' && (
-              <div className="relative z-10 min-h-[460px] sm:min-h-[420px] w-full pointer-events-none" />
+              <div className="relative z-10 h-full w-full pointer-events-none" />
             )}
 
           </div>

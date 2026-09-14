@@ -41,11 +41,8 @@ export default function SitiosInteresCarousel() {
               <span>Portales Oficiales & Documentos</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#ab0033] tracking-tight">
-              SITIOS DE INTERÉS & CALENDARIO
+              SITIOS DE INTERÉS
             </h2>
-            <p className="text-xs sm:text-sm text-gray-600 font-medium mt-1">
-              Enlaces a trámites institucionales, becas federales y el calendario escolar oficial.
-            </p>
           </div>
 
           {/* Flechas de Control Manual */}

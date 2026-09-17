@@ -7,6 +7,7 @@ import AvisosBanner from './components/sections/AvisosBanner';
 import CatalogoExamenes from './components/sections/CatalogoExamenes';
 import CatalogoHorarios from './components/sections/CatalogoHorarios';
 import Convocatorias from './components/sections/Convocatorias';
+import VidaEstudiantil from './components/sections/VidaEstudiantil';
 import EnlacesRapidos from './components/sections/EnlacesRapidos';
 import SitiosInteresCarousel from './components/sections/SitiosInteresCarousel';
 import Footer from './components/layout/Footer';
@@ -65,6 +66,14 @@ export default function App() {
               element={
                 <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
                   <Convocatorias />
+                </main>
+              }
+            />
+            <Route
+              path="/clubs"
+              element={
+                <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                  <VidaEstudiantil />
                 </main>
               }
             />

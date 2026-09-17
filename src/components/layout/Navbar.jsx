@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X, Home, Bell, Calendar, FileText, ExternalLink } from 'lucide-react';
+import { Menu, X, Home, Bell, Calendar, FileText, ExternalLink, Users } from 'lucide-react';
 import escudoImg from '../../assets/images/escudo-cobat22.png';
 
 export default function Navbar() {
@@ -11,6 +11,7 @@ export default function Navbar() {
     { name: 'Avisos', path: '/avisos', icon: Bell },
     { name: 'Exámenes & Recursamiento', path: '/examenes', icon: Calendar },
     { name: 'Convocatorias', path: '/convocatorias', icon: FileText },
+    { name: 'Clubs & Actividades', path: '/clubs', icon: Users },
     { name: 'Servicios Escolares', path: '/servicios', icon: ExternalLink },
   ];
 

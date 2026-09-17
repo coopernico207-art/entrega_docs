@@ -23,10 +23,10 @@
   ],
   "capacitaciones": [
     {
-      "id": "informatica",
-      "nombre": "Informática",
+      "id": "tics",
+      "nombre": "Tecnologías de la Información y la Comunicación",
       "icono": "Laptop",
-      "descripcion": "Formación en herramientas digitales, software de oficina, mantenimiento de sistemas, arquitectura de computadoras y desarrollo básico."
+      "descripcion": "Formación integral en sistemas informáticos, redes, software de productividad, herramientas digitales avanzadas y desarrollo tecnológico."
     },
     {
       "id": "contabilidad",
@@ -34,9 +34,9 @@
       "descripcion": "Gestión de registros contables, cálculo de nóminas, procesos financieros, impuestos básicos y control administrativo de empresas."
     },
     {
-      "id": "salud",
-      "nombre": "Higiene y Salud Comunitaria",
-      "descripcion": "Principios de salud pública, primeros auxilios, medicina preventiva, anatomía y cuidado de la salud en la comunidad."
+      "id": "electronica",
+      "nombre": "Electrónica",
+      "descripcion": "Fundamentos de circuitos eléctricos, electrónica analógica y digital, diseño de esquemáticos, sistemas de control y mantenimiento de equipos electrónicos."
     }
   ],
   "infraestructura": [

@@ -38,9 +38,9 @@ export const plantelData = {
       descripcion: "Gestión de registros contables, cálculo de nóminas, procesos financieros, impuestos básicos y control administrativo de empresas."
     },
     {
-      id: "robotica",
-      nombre: "Robótica",
-      descripcion: "Principios de automatización, mecatrónica elemental, programación de microcontroladores, electrónica y diseño de sistemas mecatrónicos."
+      id: "electronica",
+      nombre: "Electrónica",
+      descripcion: "Fundamentos de circuitos eléctricos, electrónica analógica y digital, diseño de esquemáticos, sistemas de control y mantenimiento de equipos electrónicos."
     }
   ],
   infraestructura: [

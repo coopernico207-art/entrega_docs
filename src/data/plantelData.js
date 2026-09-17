@@ -2,7 +2,7 @@ export const plantelData = {
   datosGenerales: {
     nombre: "Plantel 22 Reynosa",
     cct: "28ECB0022I",
-    zona: "Coordinación Zona 2",
+    zona: "Zona 2",
     directora: "Lic. María Alejandra Soldevilla Granados",
     regimen: "Organismo Público Descentralizado",
     modalidad: "Bachillerato General Escolarizado",

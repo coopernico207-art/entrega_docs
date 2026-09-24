@@ -121,7 +121,15 @@ export default function AdminDashboard() {
     fetch('/api/roles/mis-modulos', {
       headers: { Authorization: `Bearer ${token}` }
     })
-      .then(r => r.json())
+      .then(r => {
+        if (r.status === 401 || r.status === 403) {
+          localStorage.removeItem('cobat22_token');
+          localStorage.removeItem('cobat22_usuario');
+          navigate('/login');
+          throw new Error('Sesión expirada o token inválido.');
+        }
+        return r.json();
+      })
       .then(data => {
         const perms = (data.modulos || []).map(m => m.permiso);
         setMisPermisos(perms);

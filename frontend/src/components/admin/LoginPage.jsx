@@ -53,29 +53,11 @@ export default function LoginPage() {
         return;
       }
 
-      // Si falló, verificar fallback demo local para ADMIN22 si el servidor estuviera desconectado
-      if (cleanId === 'admin@cobat22.edu.mx' && cleanPass === 'Admin123!') {
-        const adminDemo = { id: 1, matricula: 'ADMIN22', email: 'admin@cobat22.edu.mx', rol: 'admin' };
-        localStorage.setItem('cobat22_token', 'demo_admin_jwt_token_2026');
-        localStorage.setItem('cobat22_usuario', JSON.stringify(adminDemo));
-        navigate('/app');
-        return;
-      }
-
-      throw new Error(data.error || data.message || 'Correo o contraseña incorrecta.');
+      // Si el servidor respondió con un error de credenciales
+      throw new Error(data.error || data.message || 'Identificador o contraseña incorrecta.');
 
     } catch (err) {
-      const cleanId = identificador.trim().toLowerCase();
-      const cleanPass = password.trim();
-
-      if ((cleanId === 'admin@cobat22.edu.mx' || cleanId === 'admin22') && cleanPass === 'Admin123!') {
-        const adminDemo = { id: 1, matricula: 'ADMIN22', email: 'admin@cobat22.edu.mx', rol: 'admin' };
-        localStorage.setItem('cobat22_token', 'demo_admin_jwt_token_2026');
-        localStorage.setItem('cobat22_usuario', JSON.stringify(adminDemo));
-        navigate('/app');
-      } else {
-        setError(err.message || 'Correo o contraseña incorrecta. Verifica tus datos de acceso.');
-      }
+      setError(err.message || 'Error de conexión con el servidor. Verifica tu conexión a internet.');
     } finally {
       setCargando(false);
     }

@@ -26,50 +26,64 @@ export default function AvisosBanner() {
           </div>
         </div>
 
-        {/* Rejilla de Tarjetas de Avisos */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {avisosData.map((aviso) => (
-            <div
-              key={aviso.id}
-              className={`bg-white rounded-2xl border transition-all duration-300 p-6 flex flex-col justify-between shadow-sm hover:shadow-xl ${
-                aviso.destacado ? 'border-l-4 border-l-[#ab0033] bg-gradient-to-b from-[#fce4ec]/20 to-white' : 'border-gray-200'
-              }`}
-            >
-              <div>
-                <div className="flex items-center justify-between gap-2 mb-3">
-                  <Badge tipo={aviso.prioridad}>
-                    {aviso.prioridad.toUpperCase()}
-                  </Badge>
-                  <span className="flex items-center text-xs text-gray-400 font-medium">
-                    <Calendar className="w-3.5 h-3.5 mr-1" />
-                    {aviso.fecha}
-                  </span>
+        {/* Rejilla de Tarjetas de Avisos o Estado Vacío */}
+        {avisosData.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {avisosData.map((aviso) => (
+              <div
+                key={aviso.id}
+                className={`bg-white rounded-2xl border transition-all duration-300 p-6 flex flex-col justify-between shadow-sm hover:shadow-xl ${
+                  aviso.destacado ? 'border-l-4 border-l-[#ab0033] bg-gradient-to-b from-[#fce4ec]/20 to-white' : 'border-gray-200'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-2 mb-3">
+                    <Badge tipo={aviso.prioridad}>
+                      {aviso.prioridad.toUpperCase()}
+                    </Badge>
+                    <span className="flex items-center text-xs text-gray-400 font-medium">
+                      <Calendar className="w-3.5 h-3.5 mr-1" />
+                      {aviso.fecha}
+                    </span>
+                  </div>
+
+                  <h3 className="font-bold text-lg text-[#2c3e50] mb-2 leading-snug">
+                    {aviso.titulo}
+                  </h3>
+
+                  <p className="text-xs text-gray-600 line-clamp-3 leading-relaxed mb-4">
+                    {aviso.resumen}
+                  </p>
                 </div>
 
-                <h3 className="font-bold text-lg text-[#2c3e50] mb-2 leading-snug">
-                  {aviso.titulo}
-                </h3>
-
-                <p className="text-xs text-gray-600 line-clamp-3 leading-relaxed mb-4">
-                  {aviso.resumen}
-                </p>
+                <div className="pt-4 border-t border-gray-100 flex items-center justify-between">
+                  <span className="text-xs font-semibold text-[#bc955c]">
+                    {aviso.categoria}
+                  </span>
+                  <button
+                    onClick={() => setAvisoSeleccionado(aviso)}
+                    className="inline-flex items-center space-x-1 text-xs font-bold text-[#ab0033] hover:text-[#8b002a] hover:underline"
+                  >
+                    <span>Leer aviso completo</span>
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
               </div>
-
-              <div className="pt-4 border-t border-gray-100 flex items-center justify-between">
-                <span className="text-xs font-semibold text-[#bc955c]">
-                  {aviso.categoria}
-                </span>
-                <button
-                  onClick={() => setAvisoSeleccionado(aviso)}
-                  className="inline-flex items-center space-x-1 text-xs font-bold text-[#ab0033] hover:text-[#8b002a] hover:underline"
-                >
-                  <span>Leer aviso completo</span>
-                  <ChevronRight className="w-4 h-4" />
-                </button>
-              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="bg-gray-50 border-2 border-dashed border-gray-200 rounded-3xl py-16 px-6 text-center max-w-lg mx-auto space-y-4">
+            <div className="w-16 h-16 bg-white border border-gray-200 text-gray-400 rounded-2xl flex items-center justify-center mx-auto shadow-sm">
+              <Bell className="w-8 h-8 text-gray-300" />
             </div>
-          ))}
-        </div>
+            <div className="space-y-1">
+              <h3 className="text-xl font-bold text-gray-700">De momento no hay avisos</h3>
+              <p className="text-xs sm:text-sm text-gray-500 max-w-sm mx-auto">
+                No hay comunicados oficiales activos en este momento. Consulta periódicamente este apartado.
+              </p>
+            </div>
+          </div>
+        )}
 
       </div>
 

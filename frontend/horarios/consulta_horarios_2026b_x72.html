@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COBAT 22 REYNOSA - Consulta de Horarios 2026-B</title>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cobat-guinda: #ab0033;
+            --cobat-dorado: #bc955c;
+            --cobat-gris-header: #d0d3d5;
+            --cobat-hover-bg: #fce4ec; 
+            --cobat-hover-border: #ab0033;
+            --bg-body: #f4f4f4;
+            --text-main: #333333;
+        }
+
+        html, body { margin: 0; padding: 0; min-height: 100vh; font-family: 'Encode Sans', sans-serif; background-color: var(--bg-body); color: var(--text-main); display: flex; flex-direction: column; }
+        
+        .header-container {
+            background-color: var(--cobat-guinda);
+            height: 80px; width: 100%;
+            position: sticky; top: 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            border-bottom: 5px solid var(--cobat-dorado);
+            display: flex; justify-content: center; align-items: center; padding: 0 20px; box-sizing: border-box;
+        }
+
+        .logo-box {
+            position: relative; background: white; padding: 5px 25px; border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2); height: 95px; display: flex; align-items: center; justify-content: center;
+            top: 10px; margin: 0 auto;
+        }
+        .logo-box img { max-height: 75px; width: auto; }
+
+        @media (max-width: 600px) {
+            .header-container { height: 65px; }
+            .logo-box { height: 75px; padding: 3px 15px; top: 5px; }
+            .logo-box img { max-height: 55px; }
+        }
+
+        .main-wrapper { flex: 1; width: 95%; max-width: 900px; margin: 35px auto 30px auto; display: flex; flex-direction: column; gap: 25px; }
+        .card { background: white; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); width: 100%; padding: 30px; box-sizing: border-box; border-top: 4px solid var(--cobat-guinda); }
+        @media (max-width: 600px) { .card { padding: 20px 15px; } }
+
+        .search-header { text-align: center; margin-bottom: 25px; }
+        .search-header h1 { margin: 0 0 8px 0; color: var(--cobat-guinda); font-size: 1.5rem; font-weight: 800; }
+        .search-header p { margin: 0; color: #666; font-size: 0.9rem; }
+
+        .search-box { position: relative; display: flex; gap: 10px; width: 100%; margin-bottom: 15px; }
+        .search-input { flex: 1; padding: 14px 18px; font-size: 15px; border: 2px solid #ccc; border-radius: 6px; font-family: 'Encode Sans', sans-serif; outline: none; transition: border-color 0.2s; background: #fafafa; }
+        .search-input:focus { border-color: var(--cobat-guinda); background: #fff; box-shadow: 0 0 0 3px rgba(171, 0, 51, 0.15); }
+        .btn-search { padding: 14px 24px; background: var(--cobat-guinda); color: white; border: none; border-radius: 6px; font-weight: 700; font-size: 14px; text-transform: uppercase; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; gap: 8px; justify-content: center; }
+        .btn-search:hover { background: #880028; }
+
+        @media (max-width: 520px) {
+            .search-box { flex-direction: column; }
+            .btn-search { width: 100%; }
+            .suggestions-dropdown { right: 0; }
+        }
+
+        .suggestions-dropdown { position: absolute; top: 100%; left: 0; right: 120px; background: white; border: 1px solid #ccc; border-radius: 6px; box-shadow: 0 6px 15px rgba(0,0,0,0.15); z-index: 100; max-height: 250px; overflow-y: auto; display: none; }
+        .suggestion-item { padding: 12px 18px; cursor: pointer; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+        .suggestion-item:hover { background: var(--cobat-hover-bg); }
+        .suggestion-item .s-mat { font-weight: 700; color: var(--cobat-guinda); }
+        .suggestion-item .s-nom { color: #333; font-size: 14px; }
+
+        .result-card { display: none; background: #fff; border-radius: 8px; border: 2px solid var(--cobat-dorado); overflow: hidden; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin-top: 10px; animation: fadeIn 0.3s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .result-banner { background: var(--cobat-guinda); color: white; padding: 16px 20px; text-align: center; border-bottom: 4px solid var(--cobat-dorado); }
+        .result-banner h2 { margin: 0; font-size: 1.1rem; letter-spacing: 1px; text-transform: uppercase; }
+        .result-body { padding: 25px; display: flex; flex-direction: column; gap: 20px; }
+
+        .student-title { text-align: center; }
+        .student-title h3 { margin: 0 0 5px 0; font-size: 1.4rem; color: #222; font-weight: 800; }
+        .student-title .mat-badge { display: inline-block; background: var(--cobat-dorado); color: white; padding: 4px 14px; border-radius: 15px; font-weight: 700; font-size: 13px; letter-spacing: 1px; margin-top: 5px; }
+
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 10px; }
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } }
+
+        .info-box { background: #fdf8f4; border: 1px solid #e8d8c8; border-radius: 6px; padding: 16px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; }
+        .info-box .icon { font-size: 26px; }
+        .info-box .label { font-size: 11px; text-transform: uppercase; font-weight: 700; color: #777; letter-spacing: 1px; }
+        .info-box .val { font-size: 1.15rem; font-weight: 800; color: var(--cobat-guinda); }
+
+        .turno-badge-matutino { display: inline-block; background: #27ae60; color: white; padding: 4px 12px; border-radius: 12px; font-size: 14px; font-weight: 800; }
+        .turno-badge-vespertino { display: inline-block; background: #e67e22; color: white; padding: 4px 12px; border-radius: 12px; font-size: 14px; font-weight: 800; }
+
+        .action-buttons { display: flex; justify-content: center; gap: 15px; margin-top: 10px; flex-wrap: wrap; }
+        .btn-view-schedule { padding: 14px 28px; background: var(--cobat-guinda); color: white; text-decoration: none; border-radius: 6px; font-weight: 800; font-size: 14px; text-transform: uppercase; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 12px rgba(171, 0, 51, 0.3); }
+        .btn-view-schedule:hover { background: #880028; transform: translateY(-2px); }
+
+        .no-result { display: none; background: #fff5f5; border: 1px solid #feb2b2; border-radius: 6px; padding: 20px; text-align: center; color: #c53030; margin-top: 15px; }
+
+        .footer-bar { background-color: var(--cobat-guinda); color: white; border-top: 7px solid var(--cobat-dorado); padding: 18px 10px; text-align: center; font-size: 0.85em; margin-top: auto; font-weight: 600; line-height: 1.4; }
+
+        .print-credit-footer { display: none; }
+        @media print {
+            .header-container, .search-header, .search-box, .footer-bar { display: none !important; }
+            body { background: white !important; }
+            .card { box-shadow: none !important; border: none !important; padding: 0 !important; }
+            .print-credit-footer {
+                display: block !important;
+                position: fixed !important;
+                bottom: 0 !important; left: 0 !important; right: 0 !important;
+                text-align: center !important; font-size: 10px !important; color: white !important;
+                font-family: 'Encode Sans', sans-serif !important; padding: 6px 0 !important;
+                border-top: 3px solid #bc955c !important; background: #ab0033 !important;
+                -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="logo-box">
+            <img id="logo-img" src="" alt="COBAT 22">
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="card">
+            <div class="search-header">
+                <h1>CONSULTA DE HORARIOS DE CLASE 2026-B</h1>
+                <p>Ingresa tu Matrícula o Nombre Completo (iniciando por Apellidos)</p>
+            </div>
+
+            <div class="search-box">
+                <input type="text" id="search-input" class="search-input" placeholder="Escribe tu Matrícula (ej. P222026B014) o Nombre..." autocomplete="off">
+                <button class="btn-search" onclick="realizarBusqueda()">🔍 Buscar</button>
+                <div id="suggestions" class="suggestions-dropdown"></div>
+            </div>
+
+            <div id="no-result" class="no-result">
+                ⚠️ <strong>No se encontró ningún alumno</strong> con los datos ingresados.<br>
+                Verifica tu matrícula o busca por tu primer apellido.
+            </div>
+
+            <div id="result-card" class="result-card">
+                <div class="result-banner">
+                    <h2>INFORMACIÓN DEL ALUMNO</h2>
+                </div>
+                <div class="result-body">
+                    <div class="student-title">
+                        <h3 id="res-nombre">NOMBRE DEL ALUMNO</h3>
+                        <span class="mat-badge" id="res-matricula">MATRICULA</span>
+                    </div>
+
+                    <div class="info-grid">
+                        <div class="info-box">
+                            <span class="icon">🏫</span>
+                            <span class="label">GRUPO ASIGNADO</span>
+                            <span class="val" id="res-grupo">GRUPO</span>
+                        </div>
+                        <div class="info-box">
+                            <span class="icon">☀️</span>
+                            <span class="label">TURNO</span>
+                            <span class="val" id="res-turno">TURNO</span>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <a id="link-schedule" href="#" class="btn-view-schedule">📅 VER HORARIO COMPLETO DE CLASES</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bar">
+        COLEGIO DE BACHILLERES DEL ESTADO DE TAMAULIPAS - PLANTEL 22 REYNOSA<br>
+        <span style="font-size:0.85em; opacity:0.9; font-weight:400; display:inline-block; margin-top:4px;">
+            Desarrollado por <strong>JE PRODUCTIONS</strong> | Todos los derechos reservados &copy; 2026
+        </span>
+    </div>
+    <div class="print-credit-footer">
+        Desarrollado por JE PRODUCTIONS | Todos los derechos reservados &copy; 2026
+    </div>
+
+    <script src="logo.js"></script>
+    <script src="data_horarios.js"></script>
+    <script>
+        document.getElementById('logo-img').src = COBAT_LOGO_B64;
+
+        const inputEl = document.getElementById('search-input');
+        const sugEl = document.getElementById('suggestions');
+        const resultCard = document.getElementById('result-card');
+        const noResult = document.getElementById('no-result');
+
+        function normalizeStr(str) {
+            return str.normalize("NFD").replace(/[̀-ͯ]/g, "").toUpperCase();
+        }
+
+        inputEl.addEventListener('input', function() {
+            const query = normalizeStr(this.value.trim());
+            sugEl.innerHTML = '';
+            
+            if (query.length < 2) {
+                sugEl.style.display = 'none';
+                return;
+            }
+
+            const matches = ALUMNOS_HORARIOS.filter(item => 
+                normalizeStr(item.m).includes(query) || normalizeStr(item.n).includes(query)
+            ).slice(0, 8);
+
+            if (matches.length > 0) {
+                matches.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'suggestion-item';
+                    div.innerHTML = `<span class="s-nom">${item.n}</span><span class="s-mat">${item.m}</span>`;
+                    div.onclick = function() {
+                        inputEl.value = item.m;
+                        sugEl.style.display = 'none';
+                        mostrarResultado(item);
+                    };
+                    sugEl.appendChild(div);
+                });
+                sugEl.style.display = 'block';
+            } else {
+                sugEl.style.display = 'none';
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!inputEl.contains(e.target) && !sugEl.contains(e.target)) {
+                sugEl.style.display = 'none';
+            }
+        });
+
+        inputEl.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                realizarBusqueda();
+            }
+        });
+
+        function realizarBusqueda() {
+            const query = normalizeStr(inputEl.value.trim());
+            sugEl.style.display = 'none';
+            if (!query) return;
+
+            const found = ALUMNOS_HORARIOS.find(item => 
+                normalizeStr(item.m) === query || normalizeStr(item.n).includes(query)
+            );
+
+            if (found) {
+                mostrarResultado(found);
+            } else {
+                resultCard.style.display = 'none';
+                noResult.style.display = 'block';
+            }
+        }
+
+        function mostrarResultado(alumno) {
+            noResult.style.display = 'none';
+            document.getElementById('res-nombre').innerText = alumno.n;
+            document.getElementById('res-matricula').innerText = alumno.m;
+            document.getElementById('res-grupo').innerText = alumno.g;
+            
+            const turnoEl = document.getElementById('res-turno');
+            if (alumno.t === 'Vespertino') {
+                turnoEl.innerHTML = `<span class="turno-badge-vespertino">🌙 VESPERTINO</span>`;
+            } else {
+                turnoEl.innerHTML = `<span class="turno-badge-matutino">☀️ MATUTINO</span>`;
+            }
+
+            const scheduleLink = "ver_horario_grupo_k89.html?tk=" + alumno.tk;
+            document.getElementById('link-schedule').href = scheduleLink;
+
+            resultCard.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

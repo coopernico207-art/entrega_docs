@@ -1,0 +1,29 @@
+{
+  "name": "cobat22-portal",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node -e \"require('fs').copyFileSync('src/template.html', 'index.html')\" && vite",
+    "build": "node -e \"require('fs').copyFileSync('src/template.html', 'index.html')\" && vite build",
+    "deploy": "node -e \"require('fs').copyFileSync('src/template.html', 'index.html')\" && vite build && pwsh -Command \"Copy-Item -Path dist/index.html -Destination index.html -Force; Copy-Item -Path dist/index.html -Destination 404.html -Force; Copy-Item -Path dist/* -Destination . -Recurse -Force\"",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^12.19.0",
+    "lucide-react": "^1.47.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.3",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.1.0"
+  }
+}

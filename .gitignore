@@ -2,3 +2,14 @@ node_modules
 .DS_Store
 *.log
 *.bat
+
+# Variables de entorno y secretos
+.env
+.env.*
+*.env
+
+# Claves privadas y credenciales de Firebase / Cuentas de Servicio
+backend/keys/
+keys/
+*-firebase-adminsdk-*.json
+serviceAccountKey.json

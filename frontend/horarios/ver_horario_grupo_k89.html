@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COBAT 22 REYNOSA - Horario de Grupo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cobat-guinda: #ab0033;
+            --cobat-dorado: #bc955c;
+            --cobat-gris-header: #d0d3d5;
+            --cobat-hover-bg: #fce4ec; 
+            --cobat-hover-border: #ab0033;
+            --bg-body: #f4f4f4;
+            --text-main: #333333;
+        }
+
+        html, body { margin: 0; padding: 0; min-height: 100vh; font-family: 'Encode Sans', sans-serif; background-color: var(--bg-body); color: var(--text-main); display: flex; flex-direction: column; }
+        
+        .header-container {
+            background-color: var(--cobat-guinda);
+            height: 80px; width: 100%;
+            position: sticky; top: 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            border-bottom: 5px solid var(--cobat-dorado);
+            display: flex; justify-content: center; align-items: center; padding: 0 20px; box-sizing: border-box;
+        }
+
+        .logo-box {
+            position: relative; background: white; padding: 5px 25px; border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2); height: 95px; display: flex; align-items: center; justify-content: center;
+            top: 10px; margin: 0 auto;
+        }
+        .logo-box img { max-height: 75px; width: auto; }
+
+        @media (max-width: 600px) {
+            .header-container { height: 65px; }
+            .logo-box { height: 75px; padding: 3px 15px; top: 5px; }
+            .logo-box img { max-height: 55px; }
+        }
+
+        .main-wrapper { flex: 1; width: 98%; max-width: 1500px; margin: 35px auto 30px auto; display: flex; flex-direction: column; gap: 20px; }
+        .card { background: white; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); width: 100%; padding: 25px; box-sizing: border-box; border-top: 4px solid var(--cobat-guinda); }
+
+        .top-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px; }
+        .group-header-title { margin: 0; color: var(--cobat-guinda); font-size: 1.4rem; font-weight: 800; display: flex; align-items: center; gap: 10px; }
+        .badge-turno { background: var(--cobat-dorado); color: white; padding: 3px 12px; border-radius: 12px; font-size: 13px; font-weight: 700; }
+
+        .btn-back {
+            padding: 10px 20px; background: #34495e; color: white; text-decoration: none; border-radius: 6px;
+            font-weight: 700; font-size: 12px; text-transform: uppercase; transition: background 0.2s; display: inline-flex; align-items: center; gap: 6px;
+        }
+        .btn-back:hover { background: #2c3e50; }
+
+        .layout-container { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
+        .schedule-container { flex: 1; min-width: 650px; overflow-x: auto; }
+        .summary-container { width: 360px; flex-shrink: 0; background: #fff; border: 1px solid #eee; border-radius: 6px; overflow: hidden; }
+
+        @media (max-width: 1050px) {
+            .layout-container { flex-direction: column; }
+            .schedule-container { width: 100%; min-width: 100%; }
+            .summary-container { width: 100%; }
+        }
+
+        table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
+        th { background: var(--cobat-guinda); color: white; padding: 10px; height: 40px; font-weight: 700; font-size: 12px; text-transform: uppercase; border: 1px solid rgba(255,255,255,0.15); text-align: center; }
+        td { border: 1px solid #e0e0e0; text-align: center; vertical-align: middle; padding: 4px; color: #444; box-sizing: border-box; height: 60px; }
+
+        tr.mini-row td { height: 30px !important; font-size: 10px; color: #aaa; background-color: #fafafa; }
+        tr.receso-row td { background: var(--cobat-dorado) !important; color: white; font-weight: 800; letter-spacing: 2px; height: 32px !important; font-size: 11px; border: none; }
+        tr.cambio-row td { background: #f0f0f0 !important; height: 5px !important; padding: 0 !important; border: none; }
+
+        td.highlighted { background-color: var(--cobat-hover-bg) !important; box-shadow: inset 0 0 0 2px rgba(171, 0, 51, 0.2) !important; color: #000 !important; }
+        td.highlighted .materia { color: var(--cobat-guinda); transform: scale(1.02); transition: transform 0.2s; }
+
+        .cell-content { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; width: 100%; padding: 4px; box-sizing: border-box; }
+        .materia { font-weight: 800; color: var(--cobat-guinda); font-size: 11px; display: block; margin-bottom: 2px; line-height: 1.2; word-wrap: break-word; }
+        .meta { font-size: 10px; color: #555; font-weight: 600; }
+
+        table.summary { width: 100%; margin-top: 0; table-layout: auto; }
+        table.summary th { background: var(--cobat-gris-header); color: #333; border-bottom: 2px solid var(--cobat-dorado); font-size: 11px; padding: 10px; text-align: left; }
+        table.summary td { padding: 8px 12px; height: auto !important; text-align: left; border-bottom: 1px solid #f0f0f0; font-size: 11px; cursor: pointer; transition: background 0.1s; }
+        table.summary tr:hover td { background-color: var(--cobat-hover-bg); font-weight: 600; }
+
+        .footer-bar { background-color: var(--cobat-guinda); color: white; border-top: 7px solid var(--cobat-dorado); padding: 18px 10px; text-align: center; font-size: 0.85em; margin-top: auto; font-weight: 600; line-height: 1.4; }
+
+        .print-credit-footer { display: none; }
+        @media print {
+            .header-container, .top-toolbar, .footer-bar { display: none !important; }
+            body { background: white !important; }
+            .card { box-shadow: none !important; border: none !important; padding: 0 !important; }
+            .layout-container { display: flex !important; flex-direction: row !important; gap: 10px !important; }
+            .schedule-container { flex: 1 !important; overflow: visible !important; }
+            .summary-container { width: 340px !important; overflow: visible !important; border: 1px solid #ddd !important; }
+            th { background-color: #ab0033 !important; color: white !important; }
+            .receso-row td { background-color: #bc955c !important; color: white !important; }
+            .print-credit-footer {
+                display: block !important;
+                position: fixed !important;
+                bottom: 0 !important; left: 0 !important; right: 0 !important;
+                text-align: center !important; font-size: 10px !important; color: white !important;
+                font-family: 'Encode Sans', sans-serif !important; padding: 6px 0 !important;
+                border-top: 3px solid #bc955c !important; background: #ab0033 !important;
+                -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="logo-box">
+            <img id="logo-img" src="" alt="COBAT 22">
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="card">
+            <div class="top-toolbar">
+                <a href="consulta_horarios_2026b_x72.html" class="btn-back">← VOLVER</a>
+                <h1 class="group-header-title" id="lbl-group">COBAT 22 Reynosa | Grupo <span id="group-name">...</span> <span class="badge-turno" id="group-turno">...</span></h1>
+                <button class="btn-back" onclick="window.print()" style="background:#27ae60;">🖨 IMPRIMIR HORARIO</button>
+            </div>
+
+            <div class="layout-container">
+                <div class="schedule-container" id="t-schedule"></div>
+                <div class="summary-container">
+                    <div id="s-summary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bar">
+        COLEGIO DE BACHILLERES DEL ESTADO DE TAMAULIPAS - PLANTEL 22 REYNOSA<br>
+        <span style="font-size:0.85em; opacity:0.9; font-weight:400; display:inline-block; margin-top:4px;">
+            Desarrollado por <strong>JE PRODUCTIONS</strong> | Todos los derechos reservados &copy; 2026
+        </span>
+    </div>
+    <div class="print-credit-footer">
+        Desarrollado por JE PRODUCTIONS | Todos los derechos reservados &copy; 2026
+    </div>
+
+    <script src="logo.js"></script>
+    <script src="schedules_db.js"></script>
+    <script src="group_tokens.js"></script>
+    <script>
+        document.getElementById('logo-img').src = COBAT_LOGO_B64;
+
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has(param)) return urlParams.get(param);
+            const hash = window.location.hash.substring(1);
+            const hashParams = new URLSearchParams(hash);
+            return hashParams.get(param);
+        }
+
+        const token = getQueryParam('tk');
+        let groupInfo = GROUP_TOKENS[token];
+
+        if (!groupInfo) {
+            document.querySelector('.card').innerHTML = `
+                <div style="text-align:center; padding:50px 20px; color:#c53030;">
+                    <h2>⚠️ ACCESO INVALIDO AL HORARIO</h2>
+                    <p>No se proporcionó un enlace válido de horario de grupo.</p>
+                    <a href="consulta_horarios_2026b_x72.html" class="btn-back" style="display:inline-block; margin-top:15px;">← Ir al Buscador</a>
+                </div>
+            `;
+        } else {
+            renderGroupSchedule(groupInfo.group, groupInfo.turno);
+        }
+
+        function toggleHighlight(matchId, isHover) {
+            document.querySelectorAll(`td[data-match="${matchId}"]`).forEach(el => {
+                if(isHover) el.classList.add('highlighted');
+                else el.classList.remove('highlighted');
+            });
+        }
+
+        function renderGroupSchedule(groupKey, turno) {
+            document.getElementById('group-name').innerText = groupKey.replace(' T.V', '');
+            document.getElementById('group-turno').innerText = turno.toUpperCase();
+
+            let grid = {};
+            let list = DB.grupos[groupKey] || [];
+            list.forEach(item => {
+                if(!grid[item.SLOT_VAL]) grid[item.SLOT_VAL] = {};
+                grid[item.SLOT_VAL][item.DIA] = item;
+            });
+
+            let isVesper = turno === 'Vespertino';
+            let slotsToRender = SLOTS.filter(s => isVesper ? ((s.id >= 7 && s.id <= 13) || s.id === 97) : (s.id <= 6 || s.id === 99));
+
+            let h = '<table><thead><tr><th>HORA</th>';
+            DIAS.forEach(d => h += `<th>${d}</th>`);
+            h += '</tr></thead><tbody>';
+
+            slotsToRender.forEach(slot => {
+                let rowClass = (slot.id === 6 || slot.id === 13) ? 'mini-row' : '';
+                
+                if(slot.type === 'receso') {
+                    h += `<tr class="receso-row"><td>${slot.label}</td><td colspan="5">RECESO</td></tr>`;
+                } else if(slot.type === 'cambio') {
+                    h += `<tr class="cambio-row"><td colspan="6"></td></tr>`;
+                } else {
+                    h += `<tr class="${rowClass}"><td style="font-weight:700; color:#555;">${slot.label}</td>`;
+                    DIAS.forEach(dia => {
+                        let c = (grid[slot.id] && grid[slot.id][dia]) ? grid[slot.id][dia] : null;
+                        let content = '';
+                        let dataAttr = '';
+                        
+                        if(c) {
+                            let mat = c.MATERIA;
+                            let meta = c.PROFE;
+                            let matchId = mat;
+                            dataAttr = `data-match="${matchId}"`;
+
+                            content = `<div class="cell-content">
+                                        <span class="materia">${mat}</span>
+                                        <span class="meta">${meta}</span>
+                                       </div>`;
+                        }
+                        h += `<td ${dataAttr}>${content}</td>`;
+                    });
+                    h += '</tr>';
+                }
+            });
+            h += '</tbody></table>';
+            document.getElementById('t-schedule').innerHTML = h;
+
+            let sumData = DB.r_grupos[groupKey] || {};
+            let s = '<table class="summary"><thead><tr><th style="width:40px; text-align:center;">HRS</th><th>ASIGNATURA (UAC)</th><th>DOCENTE</th></tr></thead><tbody>';
+            Object.keys(sumData).sort().forEach(mat => {
+                let item = sumData[mat];
+                let matchId = mat;
+                s += `<tr onmouseenter="toggleHighlight('${matchId}', true)" onmouseleave="toggleHighlight('${matchId}', false)">
+                        <td style="text-align:center; font-weight:700;">${item.HORAS}</td>
+                        <td style="font-weight:600; color:var(--cobat-guinda);">${mat}</td>
+                        <td>${item.PROFE}</td>
+                      </tr>`;
+            });
+            s += '</tbody></table>';
+            document.getElementById('s-summary').innerHTML = s;
+        }
+    </script>
+</body>
+</html>

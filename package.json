@@ -1,27 +1,12 @@
 {
-  "name": "cobat22-portal",
-  "private": true,
+  "name": "cobat22-web-monorepo",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Portal Institucional y Sistema de Gestión COBAT 22 - Monorepo Frontend & Backend",
+  "private": true,
   "scripts": {
-    "dev": "pwsh -Command \"Copy-Item -Path src/template.html -Destination index.html -Force\"; vite",
-    "build": "pwsh -Command \"Copy-Item -Path src/template.html -Destination index.html -Force\"; vite build",
-    "deploy": "pwsh -Command \"Copy-Item -Path src/template.html -Destination index.html -Force; Remove-Item -Path dist, assets -Recurse -Force -ErrorAction SilentlyContinue\"; vite build && pwsh -Command \"Copy-Item -Path dist/index.html -Destination index.html -Force; Copy-Item -Path dist/index.html -Destination 404.html -Force; Copy-Item -Path dist/* -Destination . -Recurse -Force\"",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "lucide-react": "^0.475.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^7.18.3"
-  },
-  "devDependencies": {
-    "@types/react": "^18.3.18",
-    "@types/react-dom": "^18.3.5",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.1",
-    "tailwindcss": "^3.4.17",
-    "vite": "^6.1.0"
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "deploy:frontend": "cd frontend && npm run deploy"
   }
 }

@@ -243,18 +243,7 @@ export default function CatalogoExamenes() {
               <strong className="text-[#ab0033] font-black uppercase tracking-wide block sm:inline mr-1">
                 Aviso Oficial de Evaluaciones:
               </strong>
-              Las fichas sombreadas en <strong>amarillo vibrante</strong> corresponden a la aplicación formal del <strong>Primer Examen Parcial</strong>.
-              <div className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 font-semibold text-gray-800">
-                <span>
-                  ☀️ <strong>Turno Matutino:</strong> Del Viernes 25 de Septiembre al Jueves 01 de Octubre de 2026.
-                </span>
-                <span>
-                  🌙 <strong>Turno Vespertino:</strong> Próxima semana, del Lunes 28 de Septiembre al Viernes 02 de Octubre de 2026.
-                </span>
-              </div>
-              <div className="mt-1 text-[11px] sm:text-xs text-amber-900">
-                En las horas con fichas normales de fondo blanco, los estudiantes asistirán a sus <strong>clases y actividades regulares</strong>.
-              </div>
+              Las fichas sombreadas en <strong>amarillo vibrante</strong> corresponden a la aplicación formal del <strong>Primer Examen Parcial</strong>. En las horas con fichas normales de fondo blanco, los estudiantes asistirán a sus <strong>clases y actividades regulares</strong>.
             </div>
           </div>
         </div>

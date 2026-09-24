@@ -114,6 +114,35 @@ export default function CatalogoExamenes() {
   const examenesDelGrupo = examenesMap[grupoLimpio] || {};
   const tieneExamenesPublicados = Object.keys(examenesDelGrupo).length > 0;
 
+  // Verifica si el grupo actual tiene evaluaciones que inicien el Viernes 25 de Septiembre
+  const tieneViernes25 = useMemo(() => {
+    if (!esVespertino) return true;
+    return Object.values(examenesDelGrupo).some((ex) => ex.fechaLabel?.includes('25/09'));
+  }, [esVespertino, examenesDelGrupo]);
+
+  // Columnas dinámicas:
+  // Si tiene Viernes 25 (Turno Matutino): VIERNES 25 a la izquierda de LUNES 28
+  // Si es Turno Vespertino: Inicia la próxima semana, LUNES 28 a VIERNES 02
+  const columnasDias = useMemo(() => {
+    if (tieneViernes25) {
+      return [
+        { dia: 'VIERNES', label: 'VIERNES', fecha: '25/Sep' },
+        { dia: 'LUNES', label: 'LUNES', fecha: '28/Sep' },
+        { dia: 'MARTES', label: 'MARTES', fecha: '29/Sep' },
+        { dia: 'MIERCOLES', label: 'MIÉRCOLES', fecha: '30/Sep' },
+        { dia: 'JUEVES', label: 'JUEVES', fecha: '01/Oct' }
+      ];
+    } else {
+      return [
+        { dia: 'LUNES', label: 'LUNES', fecha: '28/Sep' },
+        { dia: 'MARTES', label: 'MARTES', fecha: '29/Sep' },
+        { dia: 'MIERCOLES', label: 'MIÉRCOLES', fecha: '30/Sep' },
+        { dia: 'JUEVES', label: 'JUEVES', fecha: '01/Oct' },
+        { dia: 'VIERNES', label: 'VIERNES', fecha: '02/Oct' }
+      ];
+    }
+  }, [tieneViernes25]);
+
   // Filtrar los slots correspondientes al turno del grupo
   const slotsVisibles = useMemo(() => {
     return SLOTS.filter((s) => {
@@ -152,7 +181,7 @@ export default function CatalogoExamenes() {
         // Coincidencia por palabras clave o similitud
         const primerasPalabras = matNorm.split(' ').slice(0, 2).join(' ');
         if (matDoc.includes(primerasPalabras) || matNorm.includes(matDoc.slice(0, 10))) {
-          fechaExamen = ex.dia;
+          fechaExamen = ex.fechaLabel || ex.dia;
           horaExamen = ex.hora;
           profeExamen = ex.materiaDocente;
           break;
@@ -214,7 +243,18 @@ export default function CatalogoExamenes() {
               <strong className="text-[#ab0033] font-black uppercase tracking-wide block sm:inline mr-1">
                 Aviso Oficial de Evaluaciones:
               </strong>
-              Las fichas sombreadas en <strong>amarillo vibrante</strong> corresponden a la aplicación formal del <strong>Primer Examen Parcial</strong> (del 25 al 30 de Septiembre de 2026). En las horas con fichas normales de fondo blanco, los estudiantes asistirán a sus <strong>clases y actividades regulares</strong>.
+              Las fichas sombreadas en <strong>amarillo vibrante</strong> corresponden a la aplicación formal del <strong>Primer Examen Parcial</strong>.
+              <div className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 font-semibold text-gray-800">
+                <span>
+                  ☀️ <strong>Turno Matutino:</strong> Del Viernes 25 de Septiembre al Jueves 01 de Octubre de 2026.
+                </span>
+                <span>
+                  🌙 <strong>Turno Vespertino:</strong> Próxima semana, del Lunes 28 de Septiembre al Viernes 02 de Octubre de 2026.
+                </span>
+              </div>
+              <div className="mt-1 text-[11px] sm:text-xs text-amber-900">
+                En las horas con fichas normales de fondo blanco, los estudiantes asistirán a sus <strong>clases y actividades regulares</strong>.
+              </div>
             </div>
           </div>
         </div>
@@ -490,9 +530,10 @@ export default function CatalogoExamenes() {
                 <thead>
                   <tr className="bg-[#ab0033] text-white text-xs font-extrabold tracking-wider uppercase">
                     <th className="p-3 w-28 text-center border-r border-white/20">HORA</th>
-                    {DIAS.map((dia) => (
-                      <th key={dia} className="p-3 text-center border-r border-white/20 last:border-r-0">
-                        {dia}
+                    {columnasDias.map((col) => (
+                      <th key={col.dia + col.fecha} className="p-3 text-center border-r border-white/20 last:border-r-0">
+                        <div className="font-extrabold tracking-wider">{col.label}</div>
+                        <div className="text-[10px] font-medium text-amber-200 mt-0.5">{col.fecha}</div>
                       </th>
                     ))}
                   </tr>
@@ -504,7 +545,7 @@ export default function CatalogoExamenes() {
                       return (
                         <tr key={slot.id} className="bg-[#bc955c] text-white font-black tracking-widest text-center">
                           <td className="p-2.5 text-xs border-r border-white/20">{slot.label}</td>
-                          <td colSpan={5} className="p-2.5 text-xs uppercase">
+                          <td colSpan={columnasDias.length} className="p-2.5 text-xs uppercase">
                             ☕ R E C E S O
                           </td>
                         </tr>
@@ -520,7 +561,8 @@ export default function CatalogoExamenes() {
                         </td>
 
                         {/* Celdas por Día */}
-                        {DIAS.map((dia) => {
+                        {columnasDias.map((col) => {
+                          const dia = col.dia;
                           const slotKey = `${dia}_${slot.id}`;
                           const examen = examenesDelGrupo[slotKey];
                           const clase = clasesPorSlotDia[slot.id]?.[dia];
@@ -536,7 +578,7 @@ export default function CatalogoExamenes() {
                           if (esExamen) {
                             return (
                               <td 
-                                key={dia} 
+                                key={col.dia + col.fecha} 
                                 className={`p-2.5 text-center border-r border-gray-200 last:border-r-0 transition-all bg-gradient-to-b from-amber-100 to-amber-200/90 border-2 border-amber-500 shadow-xs ${
                                   coincideHover ? 'ring-4 ring-[#ab0033] scale-102 z-10' : ''
                                 }`}
@@ -564,7 +606,7 @@ export default function CatalogoExamenes() {
                           if (clase) {
                             return (
                               <td 
-                                key={dia} 
+                                key={col.dia + col.fecha} 
                                 className={`p-2.5 text-center border-r border-gray-200 last:border-r-0 transition-colors bg-white hover:bg-gray-50 ${
                                   coincideHover ? 'bg-rose-50 ring-2 ring-[#ab0033]' : ''
                                 }`}
@@ -583,7 +625,7 @@ export default function CatalogoExamenes() {
 
                           // CASO 3: CELDA VACÍA
                           return (
-                            <td key={dia} className="p-2.5 text-center text-gray-300 border-r border-gray-200 last:border-r-0 bg-gray-50/20">
+                            <td key={col.dia + col.fecha} className="p-2.5 text-center text-gray-300 border-r border-gray-200 last:border-r-0 bg-gray-50/20">
                               -
                             </td>
                           );

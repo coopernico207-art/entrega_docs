@@ -3,1157 +3,3115 @@
     "MARTES_7": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 7,
       "materiaDocente": "INGLES                  LIC. MARTHA GARZA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_8": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 8,
       "materiaDocente": "CIENCIAS SOCIALES I          LIC. MARIA LUISA CRUZ",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_8": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 8,
       "materiaDocente": "FORM. SOC. ARTISTICAS Y CULTURALES        LIC. JOSE LIRA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_8": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 8,
       "materiaDocente": "PENSAMIENTO MATEMATICO I LIC. MÓNICA QUEZADA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_9": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 9,
       "materiaDocente": "CNEyT                   ING. JOSE CONCEPCION LOPEZ",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MARTES_9": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 9,
       "materiaDocente": "PENSAMIENTO FILOSOFICO Y HUMANIDADES     LIC. ERICK MALDONADO",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "VIERNES_9": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 9,
       "materiaDocente": "FORM. SOC. AFISICAS Y DEPORTIVAS  LIC. ANDREY MENDEZ",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "LABORATORIO DE INVESTIGACION     LIC. CARLOS BENJAMIN GOMEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_11": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 11,
       "materiaDocente": "LENGUA Y COMUNICACIÓN I LUIS ANGEL CASSO",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_12": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 12,
       "materiaDocente": "CULTURA DIGITAL I                           ING. MANUELA MENDOZA",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     },
     "MARTES_13": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 13,
       "materiaDocente": "FORM. SOC. AMBITOS A         LIC. BERTHA PIÑA",
-      "hora": "19:00:00 - 19:50:00"
+      "hora": "19:00:00 - 19:50:00",
+      "turno": "Vespertino"
     }
   },
   "112": {
     "LUNES_7": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 7,
       "materiaDocente": "CULTURA DIGITAL I             ING. JOSE CONCEPCION",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_7": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 7,
       "materiaDocente": "LABORATORIO DE INVESTIGACION LIC. MARIA LUISA CRUZ",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_7": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 7,
       "materiaDocente": "INGLES I              LIC. MATHA GARZA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_8": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 8,
       "materiaDocente": "LENGUA Y COMUNICACIÓN I        MTRA. ANA SALDAÑA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_8": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 8,
       "materiaDocente": "FORM. SOC. AMBITO B FISICAS Y DEPORTIVAS    LIC. ANDREY MENDEZ",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_8": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 8,
       "materiaDocente": "CIENCIAS SOCIALES I        LIC. BENJAMIN GOMEZ",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "CNEyT                  Q.F.B ERNESTO CASTILLO",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_10": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 10,
       "materiaDocente": "PENSAMIENTO FILOSOFICO Y HUMANIDADES I   LIC. ERICK MALDONADO",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "JUEVES_10": {
       "esExamen": true,
       "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
       "slot": 10,
       "materiaDocente": "FORM. SOC. AMBITO A     LIC. BERTHA PIÑA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_10": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 10,
       "materiaDocente": "FORM. SOC. AMBITO B ARTISTICAS Y CULTURALES    LIC. ROBERTO SANCHEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "PENSAMIENTO MATEMATICO I    ING. MANUELA MENDOZA",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     }
   },
   "113": {
     "MARTES_7": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 7,
       "materiaDocente": "INGLES I MTRO. JOSE ROBERTO",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_8": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 8,
       "materiaDocente": "CULTURA DIGITAL I    ING. JOSE CONCEPCIÓN",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_9": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 9,
       "materiaDocente": "LABORATORIO DE INVESTIGACION    LIC. MARIA LUISA CRUZ",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MARTES_9": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 9,
       "materiaDocente": "CIENCIAS SOCIALES I   LIC. BENJAMIN GOMEZ",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "VIERNES_9": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 9,
       "materiaDocente": "FOR. SOC. AMBITO B    ARTISTICAS Y CULTURALES   LIC. JOSE ROBERTO SANCHEZ",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "LENGUA Y COMUNICACIÓN I     MTRO. LUIS CASSO",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_10": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 10,
       "materiaDocente": "CNEyT            Q.F.B ERNESTO CASTILLO",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_10": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 10,
       "materiaDocente": "FOR. SOC. AMBITO B   FISICAS Y DEPORTIVAS   LIC. ANDREY MENDEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "PENSAMIENTO MATEMATICO I      C.P. CESAR OCTAVIO HDZ.",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_11": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 11,
       "materiaDocente": "PENSAMIENTO FILOSOFICO Y HUMANIDADES I     MTRA. ANA SALDAÑA",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_13": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 13,
       "materiaDocente": "FORM. SOC. AMBITO A     LIC. MARTHA GARZA",
-      "hora": "19:00:00 - 19:50:00"
+      "hora": "19:00:00 - 19:50:00",
+      "turno": "Vespertino"
     }
   },
   "308": {
     "LUNES_7": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 7,
       "materiaDocente": "CNEyT III         M.V.Z. VICTOR CEPEDA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_7": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 7,
       "materiaDocente": "PENSAMIENTO MATEMATICO III     ING. ISAAC GARAY",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_8": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 8,
       "materiaDocente": "FORM. SOC. III AMBITO A   LIC. BERTHA PIÑA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_8": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 8,
       "materiaDocente": "FORM. SOC. III AMBITO B ARTISTICAS Y CULTURALES   LIC. JOSE LIRA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_9": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 9,
       "materiaDocente": "INGLES III   LIC. MARTHA GARZA",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MARTES_10": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 10,
       "materiaDocente": "FORM. SOC. III AMBITO B FISICAS Y DEPORTIVAS   LIC. ANDREY MENDEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_10": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 10,
       "materiaDocente": "COMP. DE FORM. LABORAL SUBMODULO II   C.P OCTAVIO HERNANDEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "CIENCIAS SOCIALES III   LIC. BENJAMIN GOMEZ",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_11": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 11,
       "materiaDocente": "COMP. DE FORM. LABORAL SUBMODULO I    C.P OCTAVIO HERNANDEZ",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_12": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 12,
       "materiaDocente": "LENGUA Y COMUNICACIÓN   MTRO. LUIS CASSO",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     }
   },
   "309": {
     "LUNES_7": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 7,
       "materiaDocente": "COMP DE FORM. LABORAL SUBMODULO I    ING ISAAC GARAY",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_7": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 7,
       "materiaDocente": "LENGUA Y COMUNICACIÓN III. LIC. MAYRA ELIZACUMPEAN",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_8": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 8,
       "materiaDocente": "INGLES III    LIC. MARTHA GARZA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_8": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 8,
       "materiaDocente": "COMP DE FORM. LABORAL SUBMODULO II    ING ISAAC GARAY",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_8": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 8,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL III. AMBITO A LIC. BERTA GABRIELA PIÑA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_9": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 9,
       "materiaDocente": "CNEyT III     Q.F.B. NICOLAS SOLORZANO",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_10": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 10,
       "materiaDocente": "CIENCIAS SOCIALES III.  LIC. CARLOS BENJAMIN GOMEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_10": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 10,
       "materiaDocente": "PENSAMIENTO MATEMATICO III. ING. MONICA ELIZABETH QUEZADA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "FORM SOC. III AMBITO B FISICAS Y DEPORTIVAS LIC. ANDREY MENDEZ",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_13": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 13,
       "materiaDocente": "FORM SOC. III AMBITO B ARTISTICAS Y CULTURALES MTRO. LUIS CASSO",
-      "hora": "19:00:00 - 19:50:00"
+      "hora": "19:00:00 - 19:50:00",
+      "turno": "Vespertino"
     }
   },
   "310": {
     "LUNES_7": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 7,
       "materiaDocente": "LENGUA Y COMUNICACIONIII. MTRO.LUIS ANGEL CASSO",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_7": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 7,
       "materiaDocente": "CIENCIAS SOCIALES III. LIC. ERICK EDUARDO MALDONADO BOTELLO",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_7": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 7,
       "materiaDocente": "COMPONENTES DE FORMACION LABORAL BASICO MODULO III. SUBMODULO II. ING. MANUELA MENDOZA PEREZ",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_8": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 8,
       "materiaDocente": "COMPONENTES DE FORMACION LABORAL BASICO. SUBMODULO I ING. MANUELA MENDOZA PEREZ",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_8": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 8,
       "materiaDocente": "PENSAMIENTO MATEMATICO III. ING. JOSE ISAAC GARAY",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_9": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 9,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL III. AMBITO B FISICAS Y DEPORTIVAS. LIC. CARLOS ANDREY",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "INGLES III. LIC. MARTHA GARZA CASTILLO",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "CIENCIAS NATURALES Y EXPERIMENTALES Y TECNOLOGIA III.  Q.F.B. NICOLAS NORBERTO SOLORZANO",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_11": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 11,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL III. AMBITO A LIC. BERTHA GABRIELA PIÑA",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "JUEVES_13": {
       "esExamen": true,
       "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
       "slot": 13,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL III. AMBITO B ARTISTICAS Y CULTURALES MTRO.LUIS ANGEL CASSO",
-      "hora": "19:00:00 - 19:50:00"
+      "hora": "19:00:00 - 19:50:00",
+      "turno": "Vespertino"
     }
   },
   "501": {
     "MARTES_7": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 7,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B ARTISTICAS Y CULTURALES MTRO. LUIS ANGEL CASSO",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_7": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 7,
       "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B. NICOLAS NORBERTO SOLORZANO",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_8": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 8,
       "materiaDocente": "TALLER PENSAMIENTO VARACIONAL I. ING. ABIUD ORLANDO BUDAR",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_8": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 8,
       "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA  YUNERI SEQUEDA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_8": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 8,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V. AMBITO A ING. MONICA ELIZABETH QUEZADA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_9": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 9,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. CESAR FEDERICO LUNA RAMOS",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ GARCIA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_10": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 10,
       "materiaDocente": "PSICOLOGIA I LIC. BERTHA GABRIELA PIÑA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO I LIC. CESAR FEDERICO LUNA",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_11": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 11,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V. AMBITO A FISICAS Y DEPORTIVAS LIC. ERICK DAVID LOPEZ",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_12": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 12,
       "materiaDocente": "CONCIENCIA HISTORICA IILIC. SERGIO JOVANI MARTINEZ",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     }
   },
   "502": {
     "LUNES_8": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 8,
       "materiaDocente": "CONCIENCIA HISTORICA II. LIC. SERGIO JOVANI MARTINEZ",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "JUEVES_8": {
       "esExamen": true,
       "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
       "slot": 8,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B ARTISTICAS Y CULTURALES. MTRO.LUIS ANGEL CASSO",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_8": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 8,
       "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B. NICOLAS NORBERTO SOLORZANO",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_9": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 9,
       "materiaDocente": "TALLER DE PENSAMIENRO VARIACIONAL I. ING. ABIUD ORLANDO BUDAR",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MARTES_9": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 9,
       "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA YUNERI SEQUEDA",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "VIERNES_9": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 9,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A LIC. ERICK EDUARDO MALDONADO",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "PSICOLOGIA I LIC. BERTHA GABRIELA PIÑA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_10": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 10,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERICK DAVID LOPEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_11": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 11,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO I LIC. CESAR FEDERICO LUNA",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_11": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 11,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II LIC. CESAR FEDERICO LUNA",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     }
   },
   "503": {
     "MIERCOLES_7": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 7,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. CESAR FEDERICO LUNA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_7": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 7,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. LIC. ERICK EDUARDO MALDONADO",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_8": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 8,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO SUBMODULO I. LIC. CESAR FEDERICO LUNA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_9": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 9,
       "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA YUNERI SEQUEDA",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "CONCIENCIA HISTORICA II. LIC. SERGIO JOVANI MARTINEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_10": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 10,
       "materiaDocente": "PSICOLOGIA I. LIC. BERTHA GABRIELA PIÑA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B ARTISTICAS Y CULTURALES. MTRO. LUIS ANGEL CASSO",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_11": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 11,
       "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B. NICOLAS NORBERTO",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_12": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 12,
       "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ GARCIA",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     },
     "MARTES_12": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 12,
       "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. ABIUD ORLANDO BUDAR",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_13": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 13,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERICK DAVID LOPEZ",
-      "hora": "19:00:00 - 19:50:00"
+      "hora": "19:00:00 - 19:50:00",
+      "turno": "Vespertino"
     }
   },
   "504": {
     "MARTES_7": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 7,
       "materiaDocente": "PSICOLOGIA I. LIC. BERTA GABRIELA PIÑA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_7": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 7,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. CESAR FEDERICO LUNA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_8": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 8,
       "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B NICOLAS NORBERTO",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_8": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 8,
       "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. ABIUD ORLANDO",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_9": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 9,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B ARTISTICAS Y CULTURALES. MTRO. LUIS ANGEL CASSO",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MARTES_9": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 9,
       "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ GARCIA",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA YUNEIRI SEQUEDA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_10": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 10,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. LIC. ERICK EDUARDO MALDONADO",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "CONCIENCIA HISTORICA II. LIC. SERGIO JOVANI MARTINEZ",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_11": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 11,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERICK DAVID LOPEZ AGUILAR",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_13": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 13,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO I. LIC. CESAR FEDERICO LUNA",
-      "hora": "19:00:00 - 19:50:00"
+      "hora": "19:00:00 - 19:50:00",
+      "turno": "Vespertino"
     }
   },
   "505": {
     "LUNES_7": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 7,
       "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B NICOLAS NORBERTO SOLORZANO",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_7": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 7,
       "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA YUNERI SEQUEDA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_7": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 7,
       "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. ABIUD ORLANDO BUDAR",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_8": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 8,
       "materiaDocente": "CONCIENCIA HISTORICA II. LIC. SERGIO GIOVANI MARTINEZ",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_8": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 8,
       "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_9": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 9,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO I. LIC. CESAR FEDERICO LUNA",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "JUEVES_9": {
       "esExamen": true,
       "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
       "slot": 9,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. LIC. ERIK EDUARDO MALDONADO",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_10": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 10,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO SUBMODULO II. LIC. CESAR FEDERICO LUNA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_12": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 12,
       "materiaDocente": "PSICOLOGIA I. LIC. BERTA GABRIELA PIÑA",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     },
     "VIERNES_12": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 12,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERIK DAVID LOPEZ",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     }
   },
   "506": {
     "LUNES_7": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 7,
       "materiaDocente": "CONCIENCIA HISTORICA II. LIC. CARLOS BENJAMIN",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_7": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 7,
       "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA YUNERI SEQUEDA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_8": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 8,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. LIC. GABRIELA PIÑA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_9": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 9,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. ENRIQUE GARCIA DE LA ROSA",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MARTES_9": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 9,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. ARTISTICAS Y CULTURALES. LIC. JOSE ROBERTO SANCHEZ",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_9": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 9,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. ENRIQUE GARCIA DE LA ROSA",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "VIERNES_9": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 9,
       "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B ERNESTO CASTILLO MARTINEZ",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MARTES_10": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 10,
       "materiaDocente": "PSICOLOGIA I. LIC. RUBI LIZETH GARCIA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_11": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 11,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERIK DAVID LOPEZ",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_11": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 11,
       "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. ABIUD ORLANDO",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_12": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 12,
       "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ GARCIA",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     }
   },
   "507": {
     "LUNES_7": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 7,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V. AMBITO A. LIC. GABRIELA PIÑA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_7": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 7,
       "materiaDocente": "CONCIENCIA HISTORICA II. LIC. CARLOS BENJAMIN",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_8": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 8,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO I. C.P. LUCIA SANCHEZ",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_9": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 9,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. C.P. LUCIA SANCHEZ GARCIA",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. ING. MONICA ELIZABETH",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_10": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 10,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V. AMBITO B ARTISTICAS Y CULTURALES. LIC. JOSE ROBERTO SANCHEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_10": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 10,
       "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B. ERNESTO CASTILLO MARTINEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "PSICOLOGIA I. LIC. RUBI LIZETH GARCIA",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_12": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 12,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B. FISICAS Y DEPORTIVAS. LIC. ERIK DAVID LOPEZ",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     },
     "VIERNES_12": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 12,
       "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. ABIUD ORLANDO",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     },
     "VIERNES_13": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 13,
       "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. MTRO. LUIS ANGEL CASSO",
-      "hora": "19:00:00 - 19:50:00"
+      "hora": "19:00:00 - 19:50:00",
+      "turno": "Vespertino"
     }
   },
   "508": {
     "VIERNES_7": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 7,
       "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_8": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 8,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B ARTISTICAS Y CULTURALES. MNTRO. LUIS ANGEL CASSO",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_8": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 8,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. LIC. BERTHA GABRIELA PIÑA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_8": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 8,
       "materiaDocente": "CONCIENCIA HISTORICA II. LIC. CARLOS BENJAMIN GOMEZ",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_9": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 9,
       "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. MONICA ELIZABETH QUEZADA",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "MARTES_9": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 9,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMMODULO I. C.P. CESAR OCTAVIO HERNANDEZ",
-      "hora": "15:10:00 - 16:00:00"
+      "hora": "15:10:00 - 16:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERIK DAVID LOPEZ",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "VIERNES_10": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 10,
       "materiaDocente": "PSICOLOGIA I. LIC. RUBI LIZETH GARCIA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "LUNES_11": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 11,
       "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. MTRO. LUIS ANGEL CASSO",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "MARTES_11": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 11,
       "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B ERNESTO CASTILLO MARTINEZ",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_11": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 11,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. C.P CESAR OCTAVIO HERNANDEZ",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     }
   },
   "509": {
     "LUNES_7": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 7,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL. SUBMODULO I. LIC. ENRIQUE GARCIA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_7": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 7,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V. AMBITO B ARTISTICAS Y CULTURALES. LIC. SERGIO GIOVANI MARTINEZ",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_7": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 7,
       "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. ENRIQUE GARCIA",
-      "hora": "13:30:00 - 14:20:00"
+      "hora": "13:30:00 - 14:20:00",
+      "turno": "Vespertino"
     },
     "MARTES_8": {
       "esExamen": true,
       "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
       "slot": 8,
       "materiaDocente": "CONCIENCIA HISTORICA II. LIC. CARLOS BENJAMIN",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_8": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 8,
       "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. MANUELA MENDOZA",
-      "hora": "14:20:00 - 15:10:00"
+      "hora": "14:20:00 - 15:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_10": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 10,
       "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. MTRA. ANA LIZBETH SALDAÑA",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_10": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 10,
       "materiaDocente": "PSICOLOGIA I. LIC. RUBI LIZETH",
-      "hora": "16:30:00 - 17:20:00"
+      "hora": "16:30:00 - 17:20:00",
+      "turno": "Vespertino"
     },
     "MIERCOLES_11": {
       "esExamen": true,
       "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
       "slot": 11,
       "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. MTRO. LUIS ANGEL CASSO",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "VIERNES_11": {
       "esExamen": true,
       "dia": "VIERNES",
+      "fechaLabel": "Viernes 02/10",
       "slot": 11,
       "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B. FISICAS Y DEPORTIVAS. LIC. CARLOS ANDREY MENDEZ",
-      "hora": "17:20:00 - 18:10:00"
+      "hora": "17:20:00 - 18:10:00",
+      "turno": "Vespertino"
     },
     "LUNES_12": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 12,
       "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. ING. MONICA ELIZABETH",
-      "hora": "18:10:00 - 19:00:00"
+      "hora": "18:10:00 - 19:00:00",
+      "turno": "Vespertino"
     },
     "LUNES_13": {
       "esExamen": true,
       "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
       "slot": 13,
       "materiaDocente": "FORMACION SOCIOEMOCIOLANL V AMBITO A. LIC. BERTHA GABRIELA PIÑA",
-      "hora": "19:00:00 - 19:50:00"
+      "hora": "19:00:00 - 19:50:00",
+      "turno": "Vespertino"
+    }
+  },
+  "101": {
+    "VIERNES_0": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 0,
+      "materiaDocente": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "MARTES_0": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 0,
+      "materiaDocente": "Pensamiento Matemático I. Pensamiento aritmético",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "LUNES_1": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 1,
+      "materiaDocente": "Laboratorio de Investigación",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "VIERNES_2": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 2,
+      "materiaDocente": "Inglés I. To be, or not to be, that is the question",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MARTES_2": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 2,
+      "materiaDocente": "Lengua y Comunicación I. Leer y escribir para pensarnos",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_3": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos A) Formación Socioemocional",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "LUNES_4": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 4,
+      "materiaDocente": "Ciencias Sociales I. Estado, ciudadanía y relaciones de poder",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_4": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 4,
+      "materiaDocente": "Cultura Digital I. Ciudadanía Digital",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "VIERNES_5": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 5,
+      "materiaDocente": "Formación Socioemocional I(Ámbitos B) Artísticas y Culturales",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_5": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 5,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos B) Físicas y Deportivas",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "LUNES_6": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 6,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología I. Invitación a la ciencia. Naturaleza de la materia",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "102": {
+    "MIERCOLES_0": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 0,
+      "materiaDocente": "Ciencias Sociales I. Estado, ciudadanía y relaciones de poder",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "JUEVES_0": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
+      "slot": 0,
+      "materiaDocente": "Formación Socioemocional I(Ámbitos B) Artísticas y Culturales",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_1": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 1,
+      "materiaDocente": "Cultura Digital I. Ciudadanía Digital",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MARTES_1": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 1,
+      "materiaDocente": "Lengua y Comunicación I. Leer y escribir para pensarnos",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "LUNES_2": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 2,
+      "materiaDocente": "Inglés I. To be, or not to be, that is the question",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_2": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 2,
+      "materiaDocente": "Pensamiento Matemático I. Pensamiento aritmético",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_3": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 3,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología I. Invitación a la ciencia. Naturaleza de la materia",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MARTES_3": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 3,
+      "materiaDocente": "Laboratorio de Investigación",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_4": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 4,
+      "materiaDocente": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_4": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos A) Formación Socioemocional",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "LUNES_5": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 5,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos B) Físicas y Deportivas",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    }
+  },
+  "103": {
+    "VIERNES_1": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 1,
+      "materiaDocente": "Inglés I. To be, or not to be, that is the question",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "LUNES_1": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 1,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología I. Invitación a la ciencia. Naturaleza de la materia",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "VIERNES_2": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 2,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos A) Formación Socioemocional",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MARTES_2": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 2,
+      "materiaDocente": "Pensamiento Matemático I. Pensamiento aritmético",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_2": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 2,
+      "materiaDocente": "Lengua y Comunicación I. Leer y escribir para pensarnos",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_3": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos B) Físicas y Deportivas",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_4": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 4,
+      "materiaDocente": "Ciencias Sociales I. Estado, ciudadanía y relaciones de poder",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "LUNES_4": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 4,
+      "materiaDocente": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MARTES_4": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 4,
+      "materiaDocente": "Laboratorio de Investigación",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "JUEVES_4": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional I(Ámbitos B) Artísticas y Culturales",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "VIERNES_6": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 6,
+      "materiaDocente": "Cultura Digital I. Ciudadanía Digital",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "104": {
+    "VIERNES_0": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 0,
+      "materiaDocente": "Ciencias Sociales I. Estado, ciudadanía y relaciones de poder",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "LUNES_1": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 1,
+      "materiaDocente": "Pensamiento Matemático I. Pensamiento aritmético",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_1": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 1,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología I. Invitación a la ciencia. Naturaleza de la materia",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MARTES_2": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 2,
+      "materiaDocente": "Inglés I. To be, or not to be, that is the question",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "LUNES_3": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 3,
+      "materiaDocente": "Laboratorio de Investigación",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MARTES_3": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos A) Formación Socioemocional",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_3": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 3,
+      "materiaDocente": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MARTES_4": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional I(Ámbitos B) Artísticas y Culturales",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "VIERNES_5": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 5,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos B) Físicas y Deportivas",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MARTES_5": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 5,
+      "materiaDocente": "Cultura Digital I. Ciudadanía Digital",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_5": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 5,
+      "materiaDocente": "Lengua y Comunicación I. Leer y escribir para pensarnos",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    }
+  },
+  "105": {
+    "MARTES_0": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 0,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos A) Formación Socioemocional",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_0": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 0,
+      "materiaDocente": "Lengua y Comunicación I. Leer y escribir para pensarnos",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_1": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 1,
+      "materiaDocente": "Inglés I. To be, or not to be, that is the question",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "LUNES_2": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 2,
+      "materiaDocente": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_2": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 2,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología I. Invitación a la ciencia. Naturaleza de la materia",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "LUNES_3": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 3,
+      "materiaDocente": "Laboratorio de Investigación",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_3": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 3,
+      "materiaDocente": "Pensamiento Matemático I. Pensamiento aritmético",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "JUEVES_3": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional I(Ámbitos B) Artísticas y Culturales",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "LUNES_4": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos B) Físicas y Deportivas",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MARTES_5": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 5,
+      "materiaDocente": "Cultura Digital I. Ciudadanía Digital",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MARTES_6": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 6,
+      "materiaDocente": "Ciencias Sociales I. Estado, ciudadanía y relaciones de poder",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "106": {
+    "VIERNES_0": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 0,
+      "materiaDocente": "Inglés I. To be, or not to be, that is the question",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "LUNES_0": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 0,
+      "materiaDocente": "Laboratorio de Investigación",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_0": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 0,
+      "materiaDocente": "Pensamiento Matemático I. Pensamiento aritmético",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "LUNES_1": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 1,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología I. Invitación a la ciencia. Naturaleza de la materia",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "LUNES_2": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 2,
+      "materiaDocente": "Ciencias Sociales I. Estado, ciudadanía y relaciones de poder",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MARTES_3": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional I(Ámbitos B) Artísticas y Culturales",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_3": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 3,
+      "materiaDocente": "Cultura Digital I. Ciudadanía Digital",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_4": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 4,
+      "materiaDocente": "Lengua y Comunicación I. Leer y escribir para pensarnos",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MARTES_4": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 4,
+      "materiaDocente": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_4": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos B) Físicas y Deportivas",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_6": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 6,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos A) Formación Socioemocional",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "107": {
+    "VIERNES_0": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 0,
+      "materiaDocente": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "LUNES_1": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 1,
+      "materiaDocente": "Laboratorio de Investigación",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_1": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 1,
+      "materiaDocente": "Ciencias Sociales I. Estado, ciudadanía y relaciones de poder",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "LUNES_2": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 2,
+      "materiaDocente": "Pensamiento Matemático I. Pensamiento aritmético",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_3": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional I(Ámbitos B) Artísticas y Culturales",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MARTES_3": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 3,
+      "materiaDocente": "Cultura Digital I. Ciudadanía Digital",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_4": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 4,
+      "materiaDocente": "Inglés I. To be, or not to be, that is the question",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "LUNES_4": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos A) Formación Socioemocional",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "JUEVES_4": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos B) Físicas y Deportivas",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MARTES_5": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 5,
+      "materiaDocente": "Lengua y Comunicación I. Leer y escribir para pensarnos",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_6": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 6,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología I. Invitación a la ciencia. Naturaleza de la materia",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "108": {
+    "VIERNES_0": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 0,
+      "materiaDocente": "Lengua y Comunicación I. Leer y escribir para pensarnos",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_2": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 2,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos A) Formación Socioemocional",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "LUNES_3": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 3,
+      "materiaDocente": "Pensamiento Matemático I. Pensamiento aritmético",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_3": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional I(Ámbitos B) Artísticas y Culturales",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MARTES_4": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos B) Físicas y Deportivas",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_4": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 4,
+      "materiaDocente": "Ciencias Sociales I. Estado, ciudadanía y relaciones de poder",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MARTES_5": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 5,
+      "materiaDocente": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_5": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 5,
+      "materiaDocente": "Inglés I. To be, or not to be, that is the question",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MARTES_6": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 6,
+      "materiaDocente": "Cultura Digital I. Ciudadanía Digital",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "109": {
+    "VIERNES_0": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 0,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología I. Invitación a la ciencia. Naturaleza de la materia",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_1": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 1,
+      "materiaDocente": "Lengua y Comunicación I. Leer y escribir para pensarnos",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MARTES_1": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 1,
+      "materiaDocente": "Formación Socioemocional I(Ámbitos B) Artísticas y Culturales",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_1": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 1,
+      "materiaDocente": "Pensamiento Matemático I. Pensamiento aritmético",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "LUNES_3": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 3,
+      "materiaDocente": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "JUEVES_3": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos B) Físicas y Deportivas",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "LUNES_4": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos A) Formación Socioemocional",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MARTES_4": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 4,
+      "materiaDocente": "Cultura Digital I. Ciudadanía Digital",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "LUNES_5": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 5,
+      "materiaDocente": "Ciencias Sociales I. Estado, ciudadanía y relaciones de poder",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MARTES_5": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 5,
+      "materiaDocente": "Laboratorio de Investigación",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_6": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 6,
+      "materiaDocente": "Inglés I. To be, or not to be, that is the question",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "110": {
+    "VIERNES_0": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 0,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología I. Invitación a la ciencia. Naturaleza de la materia",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "MARTES_0": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 0,
+      "materiaDocente": "Laboratorio de Investigación",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_0": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 0,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos B) Físicas y Deportivas",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_2": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 2,
+      "materiaDocente": "Pensamiento Matemático I. Pensamiento aritmético",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "LUNES_2": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 2,
+      "materiaDocente": "Cultura Digital I. Ciudadanía Digital",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "JUEVES_2": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
+      "slot": 2,
+      "materiaDocente": "Formación Socioemocional I(Ámbitos B) Artísticas y Culturales",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_3": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 3,
+      "materiaDocente": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MARTES_3": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional I (Ámbitos A) Formación Socioemocional",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_4": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 4,
+      "materiaDocente": "Ciencias Sociales I. Estado, ciudadanía y relaciones de poder",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "LUNES_5": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 5,
+      "materiaDocente": "Inglés I. To be, or not to be, that is the question",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MARTES_6": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 6,
+      "materiaDocente": "Lengua y Comunicación I. Leer y escribir para pensarnos",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "301": {
+    "VIERNES_0": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 0,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología III. Nuestro hogar. El sistema terrestre",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "LUNES_0": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 0,
+      "materiaDocente": "Ciencias Sociales III. Las dinámicas de la realidad actual: la condición estudiantil al centro",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "MARTES_0": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 0,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos A) Formación Socioemocional",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_0": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 0,
+      "materiaDocente": "Pensamiento Matemático III. Pensamiento algebraico e introducción a geometría plana",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "LUNES_2": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 2,
+      "materiaDocente": "Lengua y Comunicación III. Describir culturas, apropiarse de las palabras",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_2": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 2,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Artísticas y Culturales",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_4": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Físicas y Deportivas",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_4": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 4,
+      "materiaDocente": "Inglés III. What we were, we share",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "VIERNES_5": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 5,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo II",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_6": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 6,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo I",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "302": {
+    "MARTES_0": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 0,
+      "materiaDocente": "Inglés III. What we were, we share",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_1": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 1,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología III. Nuestro hogar. El sistema terrestre",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "LUNES_1": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 1,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo I",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "LUNES_2": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 2,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo II",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_2": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 2,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos A) Formación Socioemocional",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "LUNES_3": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 3,
+      "materiaDocente": "Pensamiento Matemático III. Pensamiento algebraico e introducción a geometría plana",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MARTES_3": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 3,
+      "materiaDocente": "Ciencias Sociales III. Las dinámicas de la realidad actual: la condición estudiantil al centro",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_4": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 4,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Artísticas y Culturales",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "JUEVES_5": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "fechaLabel": "Jueves 01/10",
+      "slot": 5,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Físicas y Deportivas",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_6": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 6,
+      "materiaDocente": "Lengua y Comunicación III. Describir culturas, apropiarse de las palabras",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "303": {
+    "MARTES_0": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 0,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo I",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_1": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 1,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos A) Formación Socioemocional",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "LUNES_1": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 1,
+      "materiaDocente": "Ciencias Sociales III. Las dinámicas de la realidad actual: la condición estudiantil al centro",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MARTES_1": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 1,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo II",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_1": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 1,
+      "materiaDocente": "Lengua y Comunicación III. Describir culturas, apropiarse de las palabras",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MARTES_2": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 2,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Artísticas y Culturales",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "LUNES_3": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 3,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología III. Nuestro hogar. El sistema terrestre",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_3": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 3,
+      "materiaDocente": "Pensamiento Matemático III. Pensamiento algebraico e introducción a geometría plana",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_4": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 4,
+      "materiaDocente": "Inglés III. What we were, we share",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MARTES_6": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 6,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Físicas y Deportivas",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "304": {
+    "MARTES_0": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 0,
+      "materiaDocente": "Ciencias Sociales III. Las dinámicas de la realidad actual: la condición estudiantil al centro",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_0": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 0,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos A) Formación Socioemocional",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_1": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 1,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo I",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "LUNES_1": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 1,
+      "materiaDocente": "Inglés III. What we were, we share",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "VIERNES_2": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 2,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo II",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_2": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 2,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología III. Nuestro hogar. El sistema terrestre",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_3": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Físicas y Deportivas",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "LUNES_3": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 3,
+      "materiaDocente": "Lengua y Comunicación III. Describir culturas, apropiarse de las palabras",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MARTES_3": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 3,
+      "materiaDocente": "Pensamiento Matemático III. Pensamiento algebraico e introducción a geometría plana",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MARTES_5": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 5,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Artísticas y Culturales",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    }
+  },
+  "305": {
+    "VIERNES_0": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 0,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo I",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "LUNES_0": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 0,
+      "materiaDocente": "Ciencias Sociales III. Las dinámicas de la realidad actual: la condición estudiantil al centro",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_1": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 1,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo II",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MARTES_1": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 1,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología III. Nuestro hogar. El sistema terrestre",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_1": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 1,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos A) Formación Socioemocional",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "VIERNES_3": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 3,
+      "materiaDocente": "Inglés III. What we were, we share",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "MARTES_3": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 3,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Físicas y Deportivas",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "LUNES_4": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 4,
+      "materiaDocente": "Lengua y Comunicación III. Describir culturas, apropiarse de las palabras",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MARTES_4": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 4,
+      "materiaDocente": "Pensamiento Matemático III. Pensamiento algebraico e introducción a geometría plana",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_5": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 5,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Artísticas y Culturales",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    }
+  },
+  "306": {
+    "LUNES_0": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 0,
+      "materiaDocente": "Lengua y Comunicación III. Describir culturas, apropiarse de las palabras",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "LUNES_1": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 1,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos A) Formación Socioemocional",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_1": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 1,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Artísticas y Culturales",
+      "hora": "7:50-8:40",
+      "turno": "Matutino"
+    },
+    "VIERNES_2": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 2,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo I",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MARTES_2": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 2,
+      "materiaDocente": "Ciencias Sociales III. Las dinámicas de la realidad actual: la condición estudiantil al centro",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_3": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 3,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo II",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "LUNES_4": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 4,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología III. Nuestro hogar. El sistema terrestre",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "VIERNES_5": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 5,
+      "materiaDocente": "Inglés III. What we were, we share",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MARTES_5": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 5,
+      "materiaDocente": "Pensamiento Matemático III. Pensamiento algebraico e introducción a geometría plana",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "VIERNES_6": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 6,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Físicas y Deportivas",
+      "hora": "12:30-13:20",
+      "turno": "Matutino"
+    }
+  },
+  "307": {
+    "VIERNES_0": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 0,
+      "materiaDocente": "Lengua y Comunicación III. Describir culturas, apropiarse de las palabras",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "LUNES_0": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 0,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos A) Formación Socioemocional",
+      "hora": "7:00 - 7:50",
+      "turno": "Matutino"
+    },
+    "VIERNES_2": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "fechaLabel": "Viernes 25/09",
+      "slot": 2,
+      "materiaDocente": "Ciencias Naturales, Experimentales y Tecnología III. Nuestro hogar. El sistema terrestre",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "LUNES_2": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 2,
+      "materiaDocente": "Inglés III. What we were, we share",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MARTES_2": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 2,
+      "materiaDocente": "Ciencias Sociales III. Las dinámicas de la realidad actual: la condición estudiantil al centro",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "MIERCOLES_2": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "fechaLabel": "Miércoles 30/09",
+      "slot": 2,
+      "materiaDocente": "Pensamiento Matemático III. Pensamiento algebraico e introducción a geometría plana",
+      "hora": "8:40 - 9:30",
+      "turno": "Matutino"
+    },
+    "LUNES_3": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 3,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo I",
+      "hora": "10:00 -10:50",
+      "turno": "Matutino"
+    },
+    "LUNES_4": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 4,
+      "materiaDocente": "Componente de formación laboral básico Módulo III. Submódulo II",
+      "hora": "10:50-11:40",
+      "turno": "Matutino"
+    },
+    "LUNES_5": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "fechaLabel": "Lunes 28/09",
+      "slot": 5,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Artísticas y Culturales",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
+    },
+    "MARTES_5": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "fechaLabel": "Martes 29/09",
+      "slot": 5,
+      "materiaDocente": "Formación Socioemocional III (Ámbitos B) Físicas y Deportivas",
+      "hora": "11:40-12:30",
+      "turno": "Matutino"
     }
   }
 }

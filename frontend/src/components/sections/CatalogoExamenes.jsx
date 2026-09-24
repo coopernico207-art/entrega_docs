@@ -14,7 +14,8 @@ import {
   GraduationCap, 
   X, 
   Layers,
-  Sparkles
+  Sparkles,
+  ChevronDown
 } from 'lucide-react';
 
 export default function CatalogoExamenes() {
@@ -335,17 +336,17 @@ export default function CatalogoExamenes() {
           )}
         </div>
 
-        {/* SELECTOR DE GRUPOS Y FILTROS */}
+        {/* SELECTOR DE GRUPOS EN DROPDOWN */}
         <div className="bg-white rounded-3xl shadow-sm border border-gray-200/80 p-5 sm:p-6 space-y-4">
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-gray-100 pb-4">
             <div className="flex items-center space-x-2">
               <Layers className="w-4 h-4 text-[#ab0033]" />
               <h2 className="font-bold text-gray-800 text-sm sm:text-base">
-                Selecciona tu Grupo o Filtra por Semestre
+                Selecciona tu Grupo
               </h2>
             </div>
 
-            {/* Filtros de Semestre y Turno */}
+            {/* Filtros rápidos de Semestre y Turno */}
             <div className="flex flex-wrap items-center gap-2">
               <div className="inline-flex rounded-xl bg-gray-100 p-1 text-xs font-bold text-gray-600">
                 <button
@@ -397,36 +398,53 @@ export default function CatalogoExamenes() {
             </div>
           </div>
 
-          {/* Botones de Grupos */}
-          <div className="flex flex-wrap gap-2 pt-1 max-h-48 overflow-y-auto pr-1">
-            {gruposFiltrados.map((grp) => {
-              const clean = limpiarGrupoKey(grp);
-              const esActivo = grupoActivo === grp || limpiarGrupoKey(grupoActivo) === clean;
-              const tieneExamen = Boolean(examenesMap[clean] && Object.keys(examenesMap[clean]).length > 0);
-
-              return (
-                <button
-                  key={grp}
-                  onClick={() => {
-                    setGrupoActivo(grp);
+          {/* Menú Desplegable (Dropdown) de Grupos con Puntito Amarillo */}
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-1">
+            <div className="relative flex-1">
+              <label htmlFor="select-grupo" className="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-1.5">
+                Grupo a consultar:
+              </label>
+              <div className="relative">
+                <select
+                  id="select-grupo"
+                  value={grupoActivo}
+                  onChange={(e) => {
+                    setGrupoActivo(e.target.value);
                     setAlumnoSeleccionado(null);
                   }}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center space-x-1.5 border cursor-pointer ${
-                    esActivo
-                      ? 'bg-[#ab0033] text-white border-[#ab0033] shadow-md scale-105 ring-2 ring-[#ab0033]/20'
-                      : 'bg-white hover:bg-amber-50 text-gray-700 border-gray-200 hover:border-amber-300'
-                  }`}
+                  className="w-full pl-4 pr-11 py-3.5 bg-gray-50 hover:bg-white border-2 border-gray-300 hover:border-[#ab0033]/60 focus:border-[#ab0033] focus:bg-white rounded-2xl text-sm sm:text-base font-extrabold text-gray-800 shadow-sm transition-all cursor-pointer appearance-none outline-none focus:ring-2 focus:ring-[#ab0033]/20"
                 >
-                  <span>Grupo {clean}</span>
-                  {tieneExamen && (
-                    <span 
-                      className={`w-2 h-2 rounded-full ${esActivo ? 'bg-amber-300' : 'bg-amber-500 animate-pulse'}`} 
-                      title="Rol de exámenes disponible"
-                    />
-                  )}
-                </button>
-              );
-            })}
+                  {gruposFiltrados.map((grp) => {
+                    const clean = limpiarGrupoKey(grp);
+                    const turno = obtenerTurnoGrupo(grp);
+                    const tieneExamen = Boolean(examenesMap[clean] && Object.keys(examenesMap[clean]).length > 0);
+                    return (
+                      <option key={grp} value={grp} className="font-semibold text-gray-800 py-1">
+                        {tieneExamen ? '🟡' : '⚪'} Grupo {clean} — Turno {turno} {tieneExamen ? '(Rol de Exámenes Publicado)' : '(Horario Regular)'}
+                      </option>
+                    );
+                  })}
+                </select>
+                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
+                  <ChevronDown className="w-5 h-5 text-gray-600" />
+                </div>
+              </div>
+            </div>
+
+            {/* Badge Informativo del Grupo Seleccionado */}
+            <div className="sm:self-end pb-0.5">
+              {tieneExamenesPublicados ? (
+                <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-amber-50 to-yellow-100 border border-amber-300 text-amber-950 px-4 py-3.5 rounded-2xl text-xs font-black shadow-xs">
+                  <span className="w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse"></span>
+                  <span>Rol de Exámenes Activo ({Object.keys(examenesDelGrupo).length} Evaluaciones)</span>
+                </div>
+              ) : (
+                <div className="inline-flex items-center space-x-2 bg-gray-100 border border-gray-200 text-gray-700 px-4 py-3.5 rounded-2xl text-xs font-semibold">
+                  <span className="w-2.5 h-2.5 rounded-full bg-gray-400"></span>
+                  <span>Horario Ordinario de Clases</span>
+                </div>
+              )}
+            </div>
           </div>
         </div>
 

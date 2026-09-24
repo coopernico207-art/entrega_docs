@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node -e \"require('fs').copyFileSync('src/template.html', 'index.html')\" && npx vite",
-    "build": "node -e \"require('fs').copyFileSync('src/template.html', 'index.html')\" && npx vite build",
+    "build": "node -e \"require('fs').copyFileSync('src/template.html', 'index.html')\" && npx vite build && node -e \"require('fs').copyFileSync('dist/index.html', 'index.html')\"",
     "deploy": "node -e \"require('fs').copyFileSync('src/template.html', 'index.html')\" && npx vite build && pwsh -Command \"Copy-Item -Path dist/index.html -Destination index.html -Force; Copy-Item -Path dist/index.html -Destination 404.html -Force; Copy-Item -Path dist/* -Destination . -Recurse -Force\"",
     "preview": "npx vite preview"
   },

@@ -1,0 +1,1159 @@
+{
+  "111": {
+    "MARTES_7": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 7,
+      "materiaDocente": "INGLES                  LIC. MARTHA GARZA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "LUNES_8": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 8,
+      "materiaDocente": "CIENCIAS SOCIALES I          LIC. MARIA LUISA CRUZ",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "MARTES_8": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 8,
+      "materiaDocente": "FORM. SOC. ARTISTICAS Y CULTURALES        LIC. JOSE LIRA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_8": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 8,
+      "materiaDocente": "PENSAMIENTO MATEMATICO I LIC. MÓNICA QUEZADA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "LUNES_9": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 9,
+      "materiaDocente": "CNEyT                   ING. JOSE CONCEPCION LOPEZ",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MARTES_9": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 9,
+      "materiaDocente": "PENSAMIENTO FILOSOFICO Y HUMANIDADES     LIC. ERICK MALDONADO",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "VIERNES_9": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 9,
+      "materiaDocente": "FORM. SOC. AFISICAS Y DEPORTIVAS  LIC. ANDREY MENDEZ",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "LABORATORIO DE INVESTIGACION     LIC. CARLOS BENJAMIN GOMEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "VIERNES_11": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 11,
+      "materiaDocente": "LENGUA Y COMUNICACIÓN I LUIS ANGEL CASSO",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "MARTES_12": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 12,
+      "materiaDocente": "CULTURA DIGITAL I                           ING. MANUELA MENDOZA",
+      "hora": "18:10:00 - 19:00:00"
+    },
+    "MARTES_13": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 13,
+      "materiaDocente": "FORM. SOC. AMBITOS A         LIC. BERTHA PIÑA",
+      "hora": "19:00:00 - 19:50:00"
+    }
+  },
+  "112": {
+    "LUNES_7": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 7,
+      "materiaDocente": "CULTURA DIGITAL I             ING. JOSE CONCEPCION",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MARTES_7": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 7,
+      "materiaDocente": "LABORATORIO DE INVESTIGACION LIC. MARIA LUISA CRUZ",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "VIERNES_7": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 7,
+      "materiaDocente": "INGLES I              LIC. MATHA GARZA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "LUNES_8": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 8,
+      "materiaDocente": "LENGUA Y COMUNICACIÓN I        MTRA. ANA SALDAÑA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "MARTES_8": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 8,
+      "materiaDocente": "FORM. SOC. AMBITO B FISICAS Y DEPORTIVAS    LIC. ANDREY MENDEZ",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "MIERCOLES_8": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 8,
+      "materiaDocente": "CIENCIAS SOCIALES I        LIC. BENJAMIN GOMEZ",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "CNEyT                  Q.F.B ERNESTO CASTILLO",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_10": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 10,
+      "materiaDocente": "PENSAMIENTO FILOSOFICO Y HUMANIDADES I   LIC. ERICK MALDONADO",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "JUEVES_10": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "slot": 10,
+      "materiaDocente": "FORM. SOC. AMBITO A     LIC. BERTHA PIÑA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "VIERNES_10": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 10,
+      "materiaDocente": "FORM. SOC. AMBITO B ARTISTICAS Y CULTURALES    LIC. ROBERTO SANCHEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "PENSAMIENTO MATEMATICO I    ING. MANUELA MENDOZA",
+      "hora": "17:20:00 - 18:10:00"
+    }
+  },
+  "113": {
+    "MARTES_7": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 7,
+      "materiaDocente": "INGLES I MTRO. JOSE ROBERTO",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "LUNES_8": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 8,
+      "materiaDocente": "CULTURA DIGITAL I    ING. JOSE CONCEPCIÓN",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "LUNES_9": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 9,
+      "materiaDocente": "LABORATORIO DE INVESTIGACION    LIC. MARIA LUISA CRUZ",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MARTES_9": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 9,
+      "materiaDocente": "CIENCIAS SOCIALES I   LIC. BENJAMIN GOMEZ",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "VIERNES_9": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 9,
+      "materiaDocente": "FOR. SOC. AMBITO B    ARTISTICAS Y CULTURALES   LIC. JOSE ROBERTO SANCHEZ",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "LENGUA Y COMUNICACIÓN I     MTRO. LUIS CASSO",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_10": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 10,
+      "materiaDocente": "CNEyT            Q.F.B ERNESTO CASTILLO",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "VIERNES_10": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 10,
+      "materiaDocente": "FOR. SOC. AMBITO B   FISICAS Y DEPORTIVAS   LIC. ANDREY MENDEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "PENSAMIENTO MATEMATICO I      C.P. CESAR OCTAVIO HDZ.",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "VIERNES_11": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 11,
+      "materiaDocente": "PENSAMIENTO FILOSOFICO Y HUMANIDADES I     MTRA. ANA SALDAÑA",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "LUNES_13": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 13,
+      "materiaDocente": "FORM. SOC. AMBITO A     LIC. MARTHA GARZA",
+      "hora": "19:00:00 - 19:50:00"
+    }
+  },
+  "308": {
+    "LUNES_7": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 7,
+      "materiaDocente": "CNEyT III         M.V.Z. VICTOR CEPEDA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MARTES_7": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 7,
+      "materiaDocente": "PENSAMIENTO MATEMATICO III     ING. ISAAC GARAY",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "LUNES_8": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 8,
+      "materiaDocente": "FORM. SOC. III AMBITO A   LIC. BERTHA PIÑA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_8": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 8,
+      "materiaDocente": "FORM. SOC. III AMBITO B ARTISTICAS Y CULTURALES   LIC. JOSE LIRA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_9": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 9,
+      "materiaDocente": "INGLES III   LIC. MARTHA GARZA",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MARTES_10": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 10,
+      "materiaDocente": "FORM. SOC. III AMBITO B FISICAS Y DEPORTIVAS   LIC. ANDREY MENDEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "VIERNES_10": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 10,
+      "materiaDocente": "COMP. DE FORM. LABORAL SUBMODULO II   C.P OCTAVIO HERNANDEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "CIENCIAS SOCIALES III   LIC. BENJAMIN GOMEZ",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "MIERCOLES_11": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 11,
+      "materiaDocente": "COMP. DE FORM. LABORAL SUBMODULO I    C.P OCTAVIO HERNANDEZ",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "MARTES_12": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 12,
+      "materiaDocente": "LENGUA Y COMUNICACIÓN   MTRO. LUIS CASSO",
+      "hora": "18:10:00 - 19:00:00"
+    }
+  },
+  "309": {
+    "LUNES_7": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 7,
+      "materiaDocente": "COMP DE FORM. LABORAL SUBMODULO I    ING ISAAC GARAY",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "VIERNES_7": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 7,
+      "materiaDocente": "LENGUA Y COMUNICACIÓN III. LIC. MAYRA ELIZACUMPEAN",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MARTES_8": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 8,
+      "materiaDocente": "INGLES III    LIC. MARTHA GARZA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "MIERCOLES_8": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 8,
+      "materiaDocente": "COMP DE FORM. LABORAL SUBMODULO II    ING ISAAC GARAY",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_8": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 8,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL III. AMBITO A LIC. BERTA GABRIELA PIÑA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "LUNES_9": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 9,
+      "materiaDocente": "CNEyT III     Q.F.B. NICOLAS SOLORZANO",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MIERCOLES_10": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 10,
+      "materiaDocente": "CIENCIAS SOCIALES III.  LIC. CARLOS BENJAMIN GOMEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "VIERNES_10": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 10,
+      "materiaDocente": "PENSAMIENTO MATEMATICO III. ING. MONICA ELIZABETH QUEZADA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "FORM SOC. III AMBITO B FISICAS Y DEPORTIVAS LIC. ANDREY MENDEZ",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "MARTES_13": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 13,
+      "materiaDocente": "FORM SOC. III AMBITO B ARTISTICAS Y CULTURALES MTRO. LUIS CASSO",
+      "hora": "19:00:00 - 19:50:00"
+    }
+  },
+  "310": {
+    "LUNES_7": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 7,
+      "materiaDocente": "LENGUA Y COMUNICACIONIII. MTRO.LUIS ANGEL CASSO",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MARTES_7": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 7,
+      "materiaDocente": "CIENCIAS SOCIALES III. LIC. ERICK EDUARDO MALDONADO BOTELLO",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "VIERNES_7": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 7,
+      "materiaDocente": "COMPONENTES DE FORMACION LABORAL BASICO MODULO III. SUBMODULO II. ING. MANUELA MENDOZA PEREZ",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "LUNES_8": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 8,
+      "materiaDocente": "COMPONENTES DE FORMACION LABORAL BASICO. SUBMODULO I ING. MANUELA MENDOZA PEREZ",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_8": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 8,
+      "materiaDocente": "PENSAMIENTO MATEMATICO III. ING. JOSE ISAAC GARAY",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "MARTES_9": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 9,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL III. AMBITO B FISICAS Y DEPORTIVAS. LIC. CARLOS ANDREY",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "INGLES III. LIC. MARTHA GARZA CASTILLO",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "CIENCIAS NATURALES Y EXPERIMENTALES Y TECNOLOGIA III.  Q.F.B. NICOLAS NORBERTO SOLORZANO",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "MIERCOLES_11": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 11,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL III. AMBITO A LIC. BERTHA GABRIELA PIÑA",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "JUEVES_13": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "slot": 13,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL III. AMBITO B ARTISTICAS Y CULTURALES MTRO.LUIS ANGEL CASSO",
+      "hora": "19:00:00 - 19:50:00"
+    }
+  },
+  "501": {
+    "MARTES_7": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 7,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B ARTISTICAS Y CULTURALES MTRO. LUIS ANGEL CASSO",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "VIERNES_7": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 7,
+      "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B. NICOLAS NORBERTO SOLORZANO",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "LUNES_8": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 8,
+      "materiaDocente": "TALLER PENSAMIENTO VARACIONAL I. ING. ABIUD ORLANDO BUDAR",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "MARTES_8": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 8,
+      "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA  YUNERI SEQUEDA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "MIERCOLES_8": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 8,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V. AMBITO A ING. MONICA ELIZABETH QUEZADA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_9": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 9,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. CESAR FEDERICO LUNA RAMOS",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ GARCIA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "VIERNES_10": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 10,
+      "materiaDocente": "PSICOLOGIA I LIC. BERTHA GABRIELA PIÑA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO I LIC. CESAR FEDERICO LUNA",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "MIERCOLES_11": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 11,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V. AMBITO A FISICAS Y DEPORTIVAS LIC. ERICK DAVID LOPEZ",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "LUNES_12": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 12,
+      "materiaDocente": "CONCIENCIA HISTORICA IILIC. SERGIO JOVANI MARTINEZ",
+      "hora": "18:10:00 - 19:00:00"
+    }
+  },
+  "502": {
+    "LUNES_8": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 8,
+      "materiaDocente": "CONCIENCIA HISTORICA II. LIC. SERGIO JOVANI MARTINEZ",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "JUEVES_8": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "slot": 8,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B ARTISTICAS Y CULTURALES. MTRO.LUIS ANGEL CASSO",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_8": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 8,
+      "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B. NICOLAS NORBERTO SOLORZANO",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "LUNES_9": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 9,
+      "materiaDocente": "TALLER DE PENSAMIENRO VARIACIONAL I. ING. ABIUD ORLANDO BUDAR",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MARTES_9": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 9,
+      "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA YUNERI SEQUEDA",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "VIERNES_9": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 9,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A LIC. ERICK EDUARDO MALDONADO",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "PSICOLOGIA I LIC. BERTHA GABRIELA PIÑA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MIERCOLES_10": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 10,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERICK DAVID LOPEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "LUNES_11": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 11,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO I LIC. CESAR FEDERICO LUNA",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "VIERNES_11": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 11,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II LIC. CESAR FEDERICO LUNA",
+      "hora": "17:20:00 - 18:10:00"
+    }
+  },
+  "503": {
+    "MIERCOLES_7": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 7,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. CESAR FEDERICO LUNA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "VIERNES_7": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 7,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. LIC. ERICK EDUARDO MALDONADO",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MARTES_8": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 8,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO SUBMODULO I. LIC. CESAR FEDERICO LUNA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_9": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 9,
+      "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA YUNERI SEQUEDA",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "CONCIENCIA HISTORICA II. LIC. SERGIO JOVANI MARTINEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_10": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 10,
+      "materiaDocente": "PSICOLOGIA I. LIC. BERTHA GABRIELA PIÑA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B ARTISTICAS Y CULTURALES. MTRO. LUIS ANGEL CASSO",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "VIERNES_11": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 11,
+      "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B. NICOLAS NORBERTO",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "LUNES_12": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 12,
+      "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ GARCIA",
+      "hora": "18:10:00 - 19:00:00"
+    },
+    "MARTES_12": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 12,
+      "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. ABIUD ORLANDO BUDAR",
+      "hora": "18:10:00 - 19:00:00"
+    },
+    "LUNES_13": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 13,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERICK DAVID LOPEZ",
+      "hora": "19:00:00 - 19:50:00"
+    }
+  },
+  "504": {
+    "MARTES_7": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 7,
+      "materiaDocente": "PSICOLOGIA I. LIC. BERTA GABRIELA PIÑA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "VIERNES_7": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 7,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. CESAR FEDERICO LUNA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "LUNES_8": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 8,
+      "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B NICOLAS NORBERTO",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "MARTES_8": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 8,
+      "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. ABIUD ORLANDO",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "LUNES_9": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 9,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B ARTISTICAS Y CULTURALES. MTRO. LUIS ANGEL CASSO",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MARTES_9": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 9,
+      "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ GARCIA",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA YUNEIRI SEQUEDA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "VIERNES_10": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 10,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. LIC. ERICK EDUARDO MALDONADO",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "CONCIENCIA HISTORICA II. LIC. SERGIO JOVANI MARTINEZ",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "VIERNES_11": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 11,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERICK DAVID LOPEZ AGUILAR",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "LUNES_13": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 13,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO I. LIC. CESAR FEDERICO LUNA",
+      "hora": "19:00:00 - 19:50:00"
+    }
+  },
+  "505": {
+    "LUNES_7": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 7,
+      "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B NICOLAS NORBERTO SOLORZANO",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MIERCOLES_7": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 7,
+      "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA YUNERI SEQUEDA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "VIERNES_7": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 7,
+      "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. ABIUD ORLANDO BUDAR",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MARTES_8": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 8,
+      "materiaDocente": "CONCIENCIA HISTORICA II. LIC. SERGIO GIOVANI MARTINEZ",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_8": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 8,
+      "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "LUNES_9": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 9,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO I. LIC. CESAR FEDERICO LUNA",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "JUEVES_9": {
+      "esExamen": true,
+      "dia": "JUEVES",
+      "slot": 9,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. LIC. ERIK EDUARDO MALDONADO",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MIERCOLES_10": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 10,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO SUBMODULO II. LIC. CESAR FEDERICO LUNA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_12": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 12,
+      "materiaDocente": "PSICOLOGIA I. LIC. BERTA GABRIELA PIÑA",
+      "hora": "18:10:00 - 19:00:00"
+    },
+    "VIERNES_12": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 12,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERIK DAVID LOPEZ",
+      "hora": "18:10:00 - 19:00:00"
+    }
+  },
+  "506": {
+    "LUNES_7": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 7,
+      "materiaDocente": "CONCIENCIA HISTORICA II. LIC. CARLOS BENJAMIN",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "VIERNES_7": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 7,
+      "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. LIC. LAURA YUNERI SEQUEDA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MIERCOLES_8": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 8,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. LIC. GABRIELA PIÑA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "LUNES_9": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 9,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. ENRIQUE GARCIA DE LA ROSA",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MARTES_9": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 9,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. ARTISTICAS Y CULTURALES. LIC. JOSE ROBERTO SANCHEZ",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MIERCOLES_9": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 9,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. ENRIQUE GARCIA DE LA ROSA",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "VIERNES_9": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 9,
+      "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B ERNESTO CASTILLO MARTINEZ",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MARTES_10": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 10,
+      "materiaDocente": "PSICOLOGIA I. LIC. RUBI LIZETH GARCIA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "LUNES_11": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 11,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERIK DAVID LOPEZ",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "VIERNES_11": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 11,
+      "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. ABIUD ORLANDO",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "MARTES_12": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 12,
+      "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ GARCIA",
+      "hora": "18:10:00 - 19:00:00"
+    }
+  },
+  "507": {
+    "LUNES_7": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 7,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V. AMBITO A. LIC. GABRIELA PIÑA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MARTES_7": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 7,
+      "materiaDocente": "CONCIENCIA HISTORICA II. LIC. CARLOS BENJAMIN",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "LUNES_8": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 8,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO I. C.P. LUCIA SANCHEZ",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_9": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 9,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. C.P. LUCIA SANCHEZ GARCIA",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. ING. MONICA ELIZABETH",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_10": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 10,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V. AMBITO B ARTISTICAS Y CULTURALES. LIC. JOSE ROBERTO SANCHEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "VIERNES_10": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 10,
+      "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B. ERNESTO CASTILLO MARTINEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "PSICOLOGIA I. LIC. RUBI LIZETH GARCIA",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "MIERCOLES_12": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 12,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B. FISICAS Y DEPORTIVAS. LIC. ERIK DAVID LOPEZ",
+      "hora": "18:10:00 - 19:00:00"
+    },
+    "VIERNES_12": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 12,
+      "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. ABIUD ORLANDO",
+      "hora": "18:10:00 - 19:00:00"
+    },
+    "VIERNES_13": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 13,
+      "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. MTRO. LUIS ANGEL CASSO",
+      "hora": "19:00:00 - 19:50:00"
+    }
+  },
+  "508": {
+    "VIERNES_7": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 7,
+      "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. C.P. LUCIA SANCHEZ",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "LUNES_8": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 8,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B ARTISTICAS Y CULTURALES. MNTRO. LUIS ANGEL CASSO",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "MARTES_8": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 8,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO A. LIC. BERTHA GABRIELA PIÑA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_8": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 8,
+      "materiaDocente": "CONCIENCIA HISTORICA II. LIC. CARLOS BENJAMIN GOMEZ",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "LUNES_9": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 9,
+      "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. MONICA ELIZABETH QUEZADA",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "MARTES_9": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 9,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMMODULO I. C.P. CESAR OCTAVIO HERNANDEZ",
+      "hora": "15:10:00 - 16:00:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B FISICAS Y DEPORTIVAS. LIC. ERIK DAVID LOPEZ",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "VIERNES_10": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 10,
+      "materiaDocente": "PSICOLOGIA I. LIC. RUBI LIZETH GARCIA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "LUNES_11": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 11,
+      "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. MTRO. LUIS ANGEL CASSO",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "MARTES_11": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 11,
+      "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. Q.F.B ERNESTO CASTILLO MARTINEZ",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "VIERNES_11": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 11,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. C.P CESAR OCTAVIO HERNANDEZ",
+      "hora": "17:20:00 - 18:10:00"
+    }
+  },
+  "509": {
+    "LUNES_7": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 7,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL. SUBMODULO I. LIC. ENRIQUE GARCIA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MARTES_7": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 7,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V. AMBITO B ARTISTICAS Y CULTURALES. LIC. SERGIO GIOVANI MARTINEZ",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MIERCOLES_7": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 7,
+      "materiaDocente": "COMPONENTE DE FORMACION LABORAL BASICO. SUBMODULO II. LIC. ENRIQUE GARCIA",
+      "hora": "13:30:00 - 14:20:00"
+    },
+    "MARTES_8": {
+      "esExamen": true,
+      "dia": "MARTES",
+      "slot": 8,
+      "materiaDocente": "CONCIENCIA HISTORICA II. LIC. CARLOS BENJAMIN",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "VIERNES_8": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 8,
+      "materiaDocente": "TALLER DE PENSAMIENTO VARIACIONAL I. ING. MANUELA MENDOZA",
+      "hora": "14:20:00 - 15:10:00"
+    },
+    "LUNES_10": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 10,
+      "materiaDocente": "LA ENERGIA EN LOS PROCESOS DE LA VIDA DIARIA. MTRA. ANA LIZBETH SALDAÑA",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MIERCOLES_10": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 10,
+      "materiaDocente": "PSICOLOGIA I. LIC. RUBI LIZETH",
+      "hora": "16:30:00 - 17:20:00"
+    },
+    "MIERCOLES_11": {
+      "esExamen": true,
+      "dia": "MIERCOLES",
+      "slot": 11,
+      "materiaDocente": "COMUNICACIÓN Y SOCIEDAD I. MTRO. LUIS ANGEL CASSO",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "VIERNES_11": {
+      "esExamen": true,
+      "dia": "VIERNES",
+      "slot": 11,
+      "materiaDocente": "FORMACION SOCIOEMOCIONAL V AMBITO B. FISICAS Y DEPORTIVAS. LIC. CARLOS ANDREY MENDEZ",
+      "hora": "17:20:00 - 18:10:00"
+    },
+    "LUNES_12": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 12,
+      "materiaDocente": "FUNDAMENTOS DE ADMINISTRACION I. ING. MONICA ELIZABETH",
+      "hora": "18:10:00 - 19:00:00"
+    },
+    "LUNES_13": {
+      "esExamen": true,
+      "dia": "LUNES",
+      "slot": 13,
+      "materiaDocente": "FORMACION SOCIOEMOCIOLANL V AMBITO A. LIC. BERTHA GABRIELA PIÑA",
+      "hora": "19:00:00 - 19:50:00"
+    }
+  }
+}

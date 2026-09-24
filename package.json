@@ -4,10 +4,10 @@
   "description": "Portal Institucional y Sistema de Gestión COBAT 22 - Monorepo Frontend & Backend",
   "private": true,
   "scripts": {
-    "build": "npm run build --prefix frontend",
-    "deploy": "npm run deploy --prefix frontend",
-    "dev": "npm run dev --prefix frontend",
-    "build:frontend": "cd frontend && npm run build",
+    "build": "cd frontend && npm install && npm run build",
+    "deploy": "cd frontend && npm install && npm run deploy",
+    "dev": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm install && npm run build",
     "deploy:frontend": "cd frontend && npm run deploy",
     "dev:frontend": "cd frontend && npm run dev",
     "dev:backend": "cd backend && npm run dev"

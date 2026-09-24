@@ -19,10 +19,9 @@ export const API_BASE_URL = (() => {
     if (hostname === 'localhost' || hostname === '127.0.0.1') {
       return '';
     }
-    // Si corre en GitHub Pages (*.github.io) o Cloudflare (*.pages.dev o dominio externo)
-    if (hostname.includes('github.io') || hostname.includes('pages.dev')) {
-      return 'https://je-productions.com';
-    }
+    // En cualquier otro dominio (cobat22.je-productions.com, workers.dev, github.io)
+    // apuntar al servidor backend de producción:
+    return 'https://je-productions.com';
   }
 
   return '';

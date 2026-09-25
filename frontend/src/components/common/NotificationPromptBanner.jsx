@@ -22,16 +22,18 @@ export default function NotificationPromptBanner() {
   const handleActivar = async () => {
     setCargando(true);
     try {
-      const token = await solicitarPermisoNotificaciones();
-      if (token) {
+      const res = await solicitarPermisoNotificaciones();
+      if (res && res.ok) {
         setActivado(true);
         setTimeout(() => {
           setMostrar(false);
         }, 3000);
       } else {
+        alert(res?.error || 'No se pudieron activar las notificaciones. Verifica que no estén bloqueadas en los permisos del sitio.');
         setMostrar(false);
       }
     } catch (e) {
+      alert('Error activando notificaciones: ' + (e.message || e));
       setMostrar(false);
     } finally {
       setCargando(false);

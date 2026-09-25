@@ -28,8 +28,8 @@ messaging.onBackgroundMessage((payload) => {
 
   const notificationOptions = {
     body,
-    icon: './icons/icon-512.png',
-    badge: './icons/icon-512.png',
+    icon: '/icons/icon-512.png',
+    badge: '/icons/icon-512.png',
     vibrate: [200, 100, 200],
     data: { url: link }
   };
@@ -55,16 +55,17 @@ self.addEventListener('notificationclick', (event) => {
 // ============================================================================
 // 5. SECCIÓN PWA: Ciclo de vida y Caché para instalación móvil
 // ============================================================================
-const CACHE_NAME = 'cobat22-pwa-v2';
+const CACHE_NAME = 'cobat22-pwa-v3';
 const ASSETS_TO_CACHE = [
-  './manifest.json',
-  './icons/icon-512.png'
+  '/',
+  '/manifest.json',
+  '/icons/icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => cache.addAll(ASSETS_TO_CACHE))
+      .then((cache) => cache.addAll(ASSETS_TO_CACHE).catch(err => console.warn('[PWA] Cache prefetch warning:', err)))
       .then(() => self.skipWaiting())
   );
 });

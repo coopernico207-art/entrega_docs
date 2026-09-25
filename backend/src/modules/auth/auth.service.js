@@ -26,6 +26,11 @@ class AuthService {
       throw { statusCode: 400, message: 'Debe ingresar su correo institucional y contraseña.' };
     }
 
+    // Detección de correo de alumno institucional (ej. p.222 o p2224b)
+    if (cleanId.includes('p.222') || cleanId.includes('p222')) {
+      throw { statusCode: 401, message: 'Lo sentimos. Aún no tienes un usuario en esta app.' };
+    }
+
     const [rows] = await db.query(
       `SELECT u.id, u.matricula, u.email, u.password, u.rol, u.estado,
               s.primer_ingreso, s.password_cambiado_en
@@ -36,7 +41,7 @@ class AuthService {
     );
 
     if (rows.length === 0) {
-      throw { statusCode: 401, message: 'Correo o contraseña incorrecta.' };
+      throw { statusCode: 401, message: 'Lo sentimos. Aún no tienes un usuario en esta app.' };
     }
 
     const usuario = rows[0];

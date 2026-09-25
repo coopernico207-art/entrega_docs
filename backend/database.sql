@@ -96,10 +96,10 @@ INSERT INTO `roles` (`nombre`, `descripcion`, `es_sistema`) VALUES
 ('directivo', 'Cuerpo Directivo del Plantel', FALSE)
 ON DUPLICATE KEY UPDATE `id`=`id`;
 
--- Usuario Admin por Defecto (Matrícula: ADMIN22 | Password inicial: Admin123!)
+-- Usuario Admin por Defecto (Matrícula: ADMIN22 | Password actualizado)
 INSERT INTO `usuarios` (`matricula`, `email`, `password`, `rol`, `estado`) 
-VALUES ('ADMIN22', 'admin@cobat22.edu.mx', '$2a$10$xrIOXb0rlJkUZGpNvvWY8uFAYBfEiUc7GmaScGLiQfd6apgru5sRO', 'admin', 'activo')
-ON DUPLICATE KEY UPDATE `id`=`id`;
+VALUES ('ADMIN22', 'admin@cobat22.edu.mx', '$2a$10$HpDmS7VOY6/GOAy2W1V5FeWxjVez.H6R01vTSnTegSztw4V0BNgFO', 'admin', 'activo')
+ON DUPLICATE KEY UPDATE `password`=VALUES(`password`);
 
 -- Alumno de Prueba (Matrícula: 2026001 | Password inicial: Alumno123!)
 INSERT INTO `usuarios` (`matricula`, `email`, `password`, `rol`, `estado`) 

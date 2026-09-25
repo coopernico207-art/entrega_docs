@@ -1,4 +1,5 @@
 {
+  "id": "/",
   "name": "COBAT 22 Reynosa - Portal Oficial",
   "short_name": "COBAT 22",
   "description": "Portal Institucional y Sistema de Gestión Escolar del COBAT Plantel 22 Reynosa.",
@@ -8,6 +9,7 @@
   "background_color": "#ab0033",
   "theme_color": "#ab0033",
   "orientation": "portrait",
+  "categories": ["education"],
   "icons": [
     {
       "src": "/icons/icon-512.png",

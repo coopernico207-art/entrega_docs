@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rol de Juegos Completo | ESTATAL COBAT 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR INSTITUCIONAL CON LOGO RELATIVO COBAT-VERTICAL.PNG -->
+  <header class="header-banner">
+    <div class="header-container">
+      <div class="brand-box">
+        <img src="COBAT-vertical.png" alt="COBAT" class="brand-logo-img">
+        <div class="brand-text">
+          <h1>ESTATAL INTERCOBAT 2026</h1>
+          <p>Rol de Juegos Deportivo Oficial</p>
+        </div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-item"><a href="index.html" class="">Inicio</a></li>
+          <li class="nav-item"><a href="deportes.html" class="active">Rol de Juegos</a></li>
+          <li class="nav-item"><a href="atletismo.html" class="">Atletismo</a></li>
+          <li class="nav-item"><a href="planteles.html" class="">Planteles</a></li>
+          <li class="nav-item"><a href="tabla_grupos.html" class="">Grupos y Reglas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-wrapper">
+    
+    <h2 style="font-size: 24px; font-weight: 900; color: #ab0033; margin-bottom: 20px; text-transform: uppercase;">Rol de Juegos Oficial</h2>
+    
+    <!-- BUSCADOR Y FILTROS CON SELECCIÓN DE DÍA DESTACADO -->
+    <section class="filter-bar-wrapper">
+      <div class="filter-bar-title">
+        <span>🔍 Buscador y Filtros de Juegos</span>
+      </div>
+      
+      <div class="filter-grid">
+        <input type="text" id="search-input" class="filter-input-search" placeholder="🔍 Buscar por plantel (ej. Plantel 01, Cemsadet)...">
+        
+        <select id="filter-deporte-rama" class="filter-select">
+          <option value="">Todos los Deportes y Ramas</option>
+          <optgroup label="🏀 BASQUETBOL">
+            <option value="Basquetbol|Varonil">🏀 Basquetbol Varonil</option>
+            <option value="Basquetbol|Femenil">🏀 Basquetbol Femenil</option>
+          </optgroup>
+          <optgroup label="⚽ FÚTBOL">
+            <option value="Fútbol|Varonil">⚽ Fútbol Varonil</option>
+            <option value="Fútbol|Femenil">⚽ Fútbol Femenil</option>
+          </optgroup>
+          <optgroup label="🏐 VOLEIBOL">
+            <option value="Voleibol|Varonil">🏐 Voleibol Varonil</option>
+            <option value="Voleibol|Femenil">🏐 Voleibol Femenil</option>
+          </optgroup>
+          <optgroup label="🏈 TOCHITO">
+            <option value="Tochito|Varonil">🏈 Tochito Varonil</option>
+            <option value="Tochito|Femenil">🏈 Tochito Femenil</option>
+          </optgroup>
+        </select>
+
+        <select id="filter-dia" class="filter-select">
+          <option value="">Todos los Días</option>
+          <option value="29/09">📅 Martes 29 de Septiembre (29/09)</option>
+          <option value="30/09">📅 Miércoles 30 de Septiembre (30/09)</option>
+          <option value="01/10">📅 Jueves 1 de Octubre (01/10)</option>
+        </select>
+
+        <select id="filter-etapa" class="filter-select">
+          <option value="">Todas las Etapas</option>
+          <option value="GRUPOS">⚔️ Partidos de Grupos / Fase Regular</option>
+          <option value="3ER_LUGAR">🥉 Partidos por 3er Lugar</option>
+          <option value="FINALES">🏆 Finales y Serie Final</option>
+        </select>
+
+        <select id="filter-grupo" class="filter-select">
+          <option value="">Todos los Grupos</option>
+          <option value="Grupo A">Grupo A</option>
+          <option value="Grupo B">Grupo B</option>
+          <option value="Grupo Único">Grupo Único</option>
+        </select>
+
+        <button id="btn-reset-filters" class="btn-clear">Limpiar Filtros</button>
+      </div>
+
+      <!-- BOTONES RÁPIDOS DE FILTRADO -->
+      <div class="quick-pills">
+        <button class="pill-btn active" data-pill="ALL">Todos (79)</button>
+        <button class="pill-btn" data-pill="Basquetbol">🏀 Basquetbol</button>
+        <button class="pill-btn" data-pill="Fútbol">⚽ Fútbol</button>
+        <button class="pill-btn" data-pill="Voleibol">🏐 Voleibol</button>
+        <button class="pill-btn" data-pill="Tochito">🏈 Tochito</button>
+        <button class="pill-btn" data-pill="FINALES">🏆 Finales / 3er Lugar</button>
+      </div>
+    </section>
+
+    <div id="results-count" style="margin-bottom: 16px; font-size: 13px; font-weight: 700; color: #6B7280;">Mostrando partidos...</div>
+
+    <section id="matches-container"></section>
+
+  </main>
+
+  <footer class="footer-banner">
+    <p>COLEGIOS DE BACHILLERES DEL ESTADO DE TAMAULIPAS — ESTATAL INTERCOBAT 2026</p>
+    <p>Sistema de Rol de Juegos Deportivo Estático</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

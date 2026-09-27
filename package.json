@@ -9,6 +9,7 @@
     "dev": "cd frontend && npm run dev",
     "build:frontend": "cd frontend && npm install && npm run build",
     "deploy:frontend": "cd frontend && npm run deploy",
+    "deploy:fast": "cd frontend && npm run deploy:fast",
     "dev:frontend": "cd frontend && npm run dev",
     "dev:backend": "cd backend && npm run dev"
   }
